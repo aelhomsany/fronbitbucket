@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password_txt</name>
+   <name>ContactPhone_txt</name>
    <tag></tag>
-   <elementGuidId>9b0edb42-0a53-419c-b1dd-09069922958f</elementGuidId>
+   <elementGuidId>e669748e-2511-490d-a439-388f19a92864</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'register-password']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>register-password</value>
+      <value>contact_phone</value>
    </webElementProperties>
 </WebElementEntity>

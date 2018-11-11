@@ -3,17 +3,17 @@
    <description></description>
    <name>Password_txt</name>
    <tag></tag>
-   <elementGuidId>9b0edb42-0a53-419c-b1dd-09069922958f</elementGuidId>
+   <elementGuidId>fe2e178a-f5e3-49f9-b18a-4435a6611e4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'register-password']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

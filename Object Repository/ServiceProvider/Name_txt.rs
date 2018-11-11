@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password_txt</name>
+   <name>Name_txt</name>
    <tag></tag>
-   <elementGuidId>9b0edb42-0a53-419c-b1dd-09069922958f</elementGuidId>
+   <elementGuidId>c6046cc2-3e67-4d81-b735-f0fae81d0431</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'register-password']</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>register-password</value>
+      <value>user_name</value>
    </webElementProperties>
 </WebElementEntity>
