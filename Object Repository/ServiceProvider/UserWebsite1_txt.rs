@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Image_txt</name>
+   <name>UserWebsite1_txt</name>
    <tag></tag>
-   <elementGuidId>d2e222a0-ff85-4ad8-98be-f27fa7eab92e</elementGuidId>
+   <elementGuidId>29d0a930-967c-4564-b84d-24166aa8f277</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator&quot;]/div/div[14]/div/div/input</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@id = 'user_website']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//*[@id=&quot;form-validator&quot;]/div/div[14]/div/div/input</value>
+      <value>user_website</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Id_txt</name>
+   <name>Email_txt</name>
    <tag></tag>
-   <elementGuidId>3bc8f84a-9272-4fda-ae58-e574947fe2bd</elementGuidId>
+   <elementGuidId>3f5c7e2a-62cd-45e5-823c-fbfadce1c9c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_ssn']</value>
+         <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[2]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>user_ssn</value>
+      <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[2]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

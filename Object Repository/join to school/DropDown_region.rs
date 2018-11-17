@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>KindOfServise_txt</name>
+   <name>DropDown_region</name>
    <tag></tag>
-   <elementGuidId>758b247e-044d-44bb-8e74-bf8bcc7b8b8f</elementGuidId>
+   <elementGuidId>086c1fa8-8d90-457a-84ee-d1634e1b02c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'select2-service_id-container']</value>
+         <value>//*[@id=&quot;region_id&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>select2-service_id-container</value>
+      <value>//*[@id=&quot;region_id&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

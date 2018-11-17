@@ -41,23 +41,23 @@ WebUI.setText(findTestObject('ServiceProvider/ConfirmPassword_txt'), '123456789'
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/Phone_txt'), '01066204128')
+WebUI.setText(findTestObject('ServiceProvider/Phone1_txt'), '01066204128')
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('ServiceProvider/Country_dropdown'), '1', false)
+WebUI.selectOptionByValue(findTestObject('ServiceProvider/Country1_dropdown'), '1', false)
 
-WebUI.verifyOptionSelectedByValue(findTestObject('ServiceProvider/Country_dropdown'), '1', false, 60)
+WebUI.verifyOptionSelectedByValue(findTestObject('ServiceProvider/Country1_dropdown'), '1', false, 60)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('ServiceProvider/City_dropdown'), '2', false)
+WebUI.selectOptionByValue(findTestObject('ServiceProvider/Cit_dropdown'), '2', false)
 
 WebUI.verifyOptionSelectedByValue(findTestObject(null), '1', false, 60)
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/Area_txt'), 'الجيزة')
+WebUI.setText(findTestObject('ServiceProvider/Area1_txt'), 'الجيزة')
 
 WebUI.delay(3)
 
@@ -65,15 +65,15 @@ WebUI.setText(findTestObject('ServiceProvider/Address_txt'), 'مصر الجدي�
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/DateOfBirth_txt'), '1/10/1996')
+WebUI.setText(findTestObject('ServiceProvider/DateOfBirth1_txt'), '1/10/1996')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/Id_txt'), '12345678978945')
+WebUI.setText(findTestObject('ServiceProvider/Id1_txt'), '12345678978945')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/Website_txt'), 'http://www.schooolz.com')
+WebUI.setText(findTestObject('ServiceProvider/Website1_txt'), 'http://www.schooolz.com')
 
 WebUI.delay(3)
 
@@ -81,7 +81,7 @@ WebUI.setText(findTestObject('ServiceProvider/Description_txt'), 'aaaaaaaaaaaaaa
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/KindOfServise_txt'), 'خدمات عامة')
+WebUI.setText(findTestObject('ServiceProvider/KindOfServise1_txt'), 'خدمات عامة')
 
 WebUI.delay(3)
 
@@ -89,7 +89,7 @@ WebUI.setText(findTestObject('ServiceProvider/ContactName_txt'), 'eman abdelmons
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/ContactEmail_txt'), 'eman.mohamed1139@yahoo.com')
+WebUI.setText(findTestObject('ServiceProvider/CcontactEmail_txt'), 'eman.mohamed1139@yahoo.com')
 
 WebUI.delay(3)
 

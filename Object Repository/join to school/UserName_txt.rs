@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Area_txt</name>
+   <name>UserName_txt</name>
    <tag></tag>
-   <elementGuidId>49613622-32ac-448f-b40b-6525db231506</elementGuidId>
+   <elementGuidId>a10a9219-7df4-40e1-a9a0-4270842d6d03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'select2-region_id-container']</value>
+         <value>//*[@id = 'username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-region_id-container</value>
+      <value>username</value>
    </webElementProperties>
 </WebElementEntity>

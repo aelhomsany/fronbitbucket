@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Website_txt</name>
+   <name>login_btn</name>
    <tag></tag>
-   <elementGuidId>ba7e647f-6ac3-4c03-b8f8-12aab2a63106</elementGuidId>
+   <elementGuidId>6591c17a-3ff1-44ab-9b9f-5c55519a236e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_website']</value>
+         <value>//*[@id=&quot;app-navbar-collapse&quot;]/ul[2]/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>user_website</value>
+      <value>//*[@id=&quot;app-navbar-collapse&quot;]/ul[2]/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

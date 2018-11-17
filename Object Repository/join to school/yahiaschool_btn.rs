@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Country_dropdown</name>
+   <name>yahiaschool_btn</name>
    <tag></tag>
-   <elementGuidId>ce7aed41-647c-4f96-a0c7-661657607655</elementGuidId>
+   <elementGuidId>1a84afa7-c809-418c-a226-f0a1c5081e21</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'country_id']</value>
+         <value>//*[@id=&quot;dataContainer&quot;]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>country_id</value>
+      <value>//*[@id=&quot;dataContainer&quot;]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

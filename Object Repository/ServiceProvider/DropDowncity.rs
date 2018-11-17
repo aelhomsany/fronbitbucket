@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>City_dropdown</name>
+   <name>DropDowncity</name>
    <tag></tag>
-   <elementGuidId>17fab4fa-9e62-46f9-b521-e3c130437cf9</elementGuidId>
+   <elementGuidId>414072e4-0ed1-44a2-adfa-3ff9cf1ae74b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;select2-city_id-container&quot;][count(. | //*[@id = 'city_id
-']) = count(//*[@id = 'city_id
-'])]</value>
+         <value>//*[@id=&quot;city_id&quot;][count(. | //*[@id = 'city_id']) = count(//*[@id = 'city_id'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,14 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>city_id
-</value>
+      <value>city_id</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;select2-city_id-container&quot;]</value>
+      <value>//*[@id=&quot;city_id&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
