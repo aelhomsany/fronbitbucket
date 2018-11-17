@@ -21,43 +21,77 @@ WebUI.navigateToUrl('https://www.schooolz.com/service_provider/create')
 
 WebUI.delay(40)
 
+WebUI.focus(findTestObject('ServiceProvider/Name_txt'))
+
 WebUI.setText(findTestObject('ServiceProvider/Name_txt'), 'esraa')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/UserName_txt'), 'esraa_mohamed')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/Email_txt'), 'esraa@yahoo.com')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/Password_txt'), '123456')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/ConfirmPassword_txt'), '123456')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/UserPhone_txt'), '01140215487')
 
-WebUI.setText(findTestObject('ServiceProvider/country_txt'), 'جمهوريه مصر العربيه')
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/City_txt'), 'القاهره')
+WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDown_country'), '1', false)
 
-WebUI.setText(findTestObject('ServiceProvider/Region_txt'), 'الشروق')
+WebUI.verifyOptionSelectedByLabel(findTestObject('ServiceProvider/DropDown_country'), '1', false, 60)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDowncity'), '2', false)
+
+WebUI.verifyOptionPresentByValue(findTestObject('ServiceProvider/DropDowncity'), '2', false, 60)
 
 WebUI.setText(findTestObject('ServiceProvider/Address_txt'), 'jhbf bjhbsjs jhbjbfh')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/BirthDate_txt'), '1/10/2015')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/UserSSn_txt'), '12345678901234')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/UserWebsite_txt'), 'https://www.google.com')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/Description_txt'), 'kjn bkjbkjn jbkbj jkbkb kjbkb kjbk bkjbkbk bkbkb bkbkjb bkbkb kb kb bkjb kjbkb bjkb kjbjkb jbkb  hkbkbknkbhjfbdjh bhjbhujk hjbhjbhjb ')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/ServiceType_txt'), 'خدمات عامه')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/ContactName_txt'), 'eeeeee')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('ServiceProvider/ContactMail_txt'), 'eee@yahoo.com')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ServiceProvider/ContactPhone_txt'), '01120345879')
 
-WebUI.acceptAlert()
+WebUI.delay(3)
 
 WebUI.click(findTestObject('ServiceProvider/Save_btn'))
 

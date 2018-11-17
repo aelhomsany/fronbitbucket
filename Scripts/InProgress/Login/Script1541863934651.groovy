@@ -17,11 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('google.com.eg')
+WebUI.navigateToUrl('https://www.schooolz.com')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'aelhomsany@gmail.com')
+WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
+
+WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
 
 WebUI.click(findTestObject('HomeScreen/Login_btn'))
 

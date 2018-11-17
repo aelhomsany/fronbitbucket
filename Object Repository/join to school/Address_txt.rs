@@ -3,11 +3,11 @@
    <description></description>
    <name>Address_txt</name>
    <tag></tag>
-   <elementGuidId>0ac9880f-3015-43c4-aaae-ca1c7fb79482</elementGuidId>
+   <elementGuidId>e86204c6-a80e-442e-a8df-f45122e4b001</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_address']</value>
+         <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[8]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>user_address</value>
+      <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[8]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

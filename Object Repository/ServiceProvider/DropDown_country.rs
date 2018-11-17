@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Address_txt</name>
+   <name>DropDown_country</name>
    <tag></tag>
-   <elementGuidId>0ac9880f-3015-43c4-aaae-ca1c7fb79482</elementGuidId>
+   <elementGuidId>84e306aa-6b5b-48a7-b1a6-ec678699ebf4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_address']</value>
+         <value>//*[@id = 'country_id']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_address</value>
+      <value>country_id</value>
    </webElementProperties>
 </WebElementEntity>

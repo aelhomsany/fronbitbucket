@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Address_txt</name>
+   <name>DropDown_region</name>
    <tag></tag>
-   <elementGuidId>0ac9880f-3015-43c4-aaae-ca1c7fb79482</elementGuidId>
+   <elementGuidId>086c1fa8-8d90-457a-84ee-d1634e1b02c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_address']</value>
+         <value>//*[@id=&quot;region_id&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>user_address</value>
+      <value>//*[@id=&quot;region_id&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
