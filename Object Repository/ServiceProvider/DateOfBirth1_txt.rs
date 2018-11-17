@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Region_txt</name>
+   <name>DateOfBirth1_txt</name>
    <tag></tag>
-   <elementGuidId>52f78942-b0a3-4cbe-a5f5-3d58738be185</elementGuidId>
+   <elementGuidId>9bc3fdd6-26fb-46f3-bb53-2a59278485ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'select2-region_id-container']</value>
+         <value>//*[@id = 'user_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-region_id-container</value>
+      <value>user_date</value>
    </webElementProperties>
 </WebElementEntity>
