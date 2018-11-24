@@ -49,8 +49,11 @@ WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDown1_country'), '1', false)
 
+//<<<<<<< HEAD
+//=======
 WebUI.verifyOptionSelectedByLabel(findTestObject('ServiceProvider/DropDown1_country'), '1', false, 60)
 
+//>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDowncity'), '2', false)
@@ -94,4 +97,6 @@ WebUI.setText(findTestObject('ServiceProvider/ContactPhone_txt'), '01120345879')
 WebUI.delay(3)
 
 WebUI.click(findTestObject('ServiceProvider/Save_btn'))
+
+WebUI.acceptAlert()
 
