@@ -45,15 +45,27 @@ WebUI.setText(findTestObject('join to school/Email_txt'), 'esraa@yahoo.com')
 
 WebUI.setText(findTestObject('join to school/phone_txt'), '1234567890')
 
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('join to school/birthdate_txt'), '1/10/2010')
+
 WebUI.selectOptionByValue(findTestObject('join to school/DropDown_country'), '2', false)
 
 WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('join to school/DropDown_city'), '34', false)
 
-WebUI.verifyOptionNotPresentByValue(findTestObject('join to school/DropDown_city'), '34', false, 60)
-
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('join to school/Address_txt'), 'kjfhdsj kjb kb jbkjb k jbkjnkj kkj nkjbkj kjbjbjk kjbk ')
+WebUI.selectOptionByIndex(findTestObject('join to school/DropDown_region'), '3', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('join to school/Address_txt'), 'helioplis square')
+
+WebUI.selectOptionByValue(findTestObject('join to school/EducationalStage_txt'), '3', false)
+
+WebUI.setText(findTestObject('join to school/Experience_txt'), 'HTML ,css')
+
+WebUI.uploadFile(findTestObject('join to school/Image_img'), 'C:\\Users\\elnahas\\git\\regressionEsraa\\Data Files')
 

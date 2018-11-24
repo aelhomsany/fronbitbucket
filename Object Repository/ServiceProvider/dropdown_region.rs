@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DropDowncity</name>
+   <name>dropdown_region</name>
    <tag></tag>
-   <elementGuidId>414072e4-0ed1-44a2-adfa-3ff9cf1ae74b</elementGuidId>
+   <elementGuidId>87c8eea0-7930-4f6f-9943-4cadf1fcaa08</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'city_id']</value>
+         <value>//*[@id = 'region_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>city_id</value>
+      <value>region_id</value>
    </webElementProperties>
 </WebElementEntity>

@@ -49,8 +49,6 @@ WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDown_country'), '1', false)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('ServiceProvider/DropDown_country'), '1', false, 60)
-
 WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDowncity'), '2', false)
@@ -94,4 +92,6 @@ WebUI.setText(findTestObject('ServiceProvider/ContactPhone_txt'), '01120345879')
 WebUI.delay(3)
 
 WebUI.click(findTestObject('ServiceProvider/Save_btn'))
+
+WebUI.acceptAlert()
 
