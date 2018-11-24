@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Description_txt</name>
+   <name>Level_Dropdown</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>70fbbeb6-8c24-48b0-bb25-b9b3aec1be22</elementGuidId>
-=======
-   <elementGuidId>92672f54-0ba0-4725-ab87-f4415a9bc2d4</elementGuidId>
->>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
+   <elementGuidId>09f39f97-7a84-4794-a373-37735af8b53f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'description']</value>
+         <value>//*[@id = 'level_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>description</value>
+      <value>level_id</value>
    </webElementProperties>
 </WebElementEntity>

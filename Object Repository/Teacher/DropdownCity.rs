@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Description_txt</name>
+   <name>DropdownCity</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>70fbbeb6-8c24-48b0-bb25-b9b3aec1be22</elementGuidId>
-=======
-   <elementGuidId>92672f54-0ba0-4725-ab87-f4415a9bc2d4</elementGuidId>
->>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
+   <elementGuidId>a7e974f4-0340-4703-92cd-4d3c2204f469</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'description']</value>
+         <value>//*[@id = 'city_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>description</value>
+      <value>city_id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;select2-city_id-container&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

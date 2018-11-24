@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Description_txt</name>
+   <name>CContactMail_txt</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>70fbbeb6-8c24-48b0-bb25-b9b3aec1be22</elementGuidId>
-=======
-   <elementGuidId>92672f54-0ba0-4725-ab87-f4415a9bc2d4</elementGuidId>
->>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
+   <elementGuidId>3a1108cd-badf-4037-95dd-3c650f7d5584</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'description']</value>
+         <value>//*[@id = 'contact_email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>description</value>
+      <value>contact_email</value>
    </webElementProperties>
 </WebElementEntity>

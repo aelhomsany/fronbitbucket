@@ -43,12 +43,17 @@ WebUI.setText(findTestObject('ServiceProvider/ConfirmPassword_txt'), '123456')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/UserPhone_txt'), '01140215487')
+WebUI.setText(findTestObject('ServiceProvider/UserPhon_txt'), '01140215487')
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDown_country'), '1', false)
+WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDown1_country'), '1', false)
 
+//<<<<<<< HEAD
+//=======
+WebUI.verifyOptionSelectedByLabel(findTestObject('ServiceProvider/DropDown1_country'), '1', false, 60)
+
+//>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('ServiceProvider/DropDowncity'), '2', false)
@@ -59,7 +64,7 @@ WebUI.setText(findTestObject('ServiceProvider/Address_txt'), 'jhbf bjhbsjs jhbjb
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/BirthDate_txt'), '1/10/2015')
+WebUI.setText(findTestObject('ServiceProvider/BirthDate1_txt'), '1/10/2015')
 
 WebUI.delay(3)
 
@@ -67,7 +72,7 @@ WebUI.setText(findTestObject('ServiceProvider/UserSSn_txt'), '12345678901234')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/UserWebsite_txt'), 'https://www.google.com')
+WebUI.setText(findTestObject('ServiceProvider/UserWebsite1_txt'), 'https://www.google.com')
 
 WebUI.delay(3)
 
@@ -75,7 +80,7 @@ WebUI.setText(findTestObject('ServiceProvider/Description_txt'), 'kjn bkjbkjn jb
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/ServiceType_txt'), 'خدمات عامه')
+WebUI.setText(findTestObject('ServiceProvider/ServiceType1_txt'), 'خدمات عامه')
 
 WebUI.delay(3)
 
@@ -83,7 +88,7 @@ WebUI.setText(findTestObject('ServiceProvider/ContactName_txt'), 'eeeeee')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/ContactMail_txt'), 'eee@yahoo.com')
+WebUI.setText(findTestObject('ServiceProvider/CContactMail_txt'), 'eee@yahoo.com')
 
 WebUI.delay(3)
 

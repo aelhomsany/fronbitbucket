@@ -13,3 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.schooolz.com')
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('join to school/login_btn'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('join to school/UserName_txt'), 'student')
+
+WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
+
+WebUI.click(findTestObject('join to school/register_btn'))
+

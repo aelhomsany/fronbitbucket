@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Region_txt</name>
+   <name>ServiceType1_txt</name>
    <tag></tag>
-   <elementGuidId>52f78942-b0a3-4cbe-a5f5-3d58738be185</elementGuidId>
+   <elementGuidId>661b2daa-cf08-40fb-b88c-f2f82569783e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'select2-region_id-container']</value>
+         <value>//*[@id = 'select2-service_id-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-region_id-container</value>
+      <value>select2-service_id-container</value>
    </webElementProperties>
 </WebElementEntity>
