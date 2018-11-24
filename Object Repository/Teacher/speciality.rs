@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BirthDate_txt</name>
+   <name>speciality</name>
    <tag></tag>
-   <elementGuidId>d4dcc89b-f7f6-47c6-82e7-f40a527d5f95</elementGuidId>
+   <elementGuidId>2b351249-4b89-4a4b-8782-fbf669052d9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_date']</value>
+         <value>//*[@id = 'specialization']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_date</value>
+      <value>specialization</value>
    </webElementProperties>
 </WebElementEntity>

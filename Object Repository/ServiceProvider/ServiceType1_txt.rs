@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserPhone_txt</name>
+   <name>ServiceType1_txt</name>
    <tag></tag>
-   <elementGuidId>3405f6bb-51cd-4488-a997-ff6ac2ce1d9a</elementGuidId>
+   <elementGuidId>661b2daa-cf08-40fb-b88c-f2f82569783e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'user_phone']</value>
+         <value>//*[@id = 'select2-service_id-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_phone</value>
+      <value>select2-service_id-container</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Description_txt</name>
+   <name>Name_txt</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>70fbbeb6-8c24-48b0-bb25-b9b3aec1be22</elementGuidId>
-=======
-   <elementGuidId>92672f54-0ba0-4725-ab87-f4415a9bc2d4</elementGuidId>
->>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
+   <elementGuidId>6f54306e-ad35-4e4b-b2e0-050c4d21edd7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'description']</value>
+         <value>//*[@id = 'name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>description</value>
+      <value>name</value>
    </webElementProperties>
 </WebElementEntity>
