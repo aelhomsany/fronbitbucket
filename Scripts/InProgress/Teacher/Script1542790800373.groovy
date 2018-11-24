@@ -23,6 +23,10 @@ WebUI.delay(5)
 
 WebUI.setText(findTestObject('Teacher/Name_txt'), 'eman mohamed')
 
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Teacher/Usernamee_txt'), 'student')
+
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Teacher/Email_txt'), 'eman555@yahoo.com')
@@ -53,7 +57,7 @@ not_run: WebUI.verifyOptionPresentByValue(findTestObject('Teacher/DropdownCity')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Teacher/Region_Dropdown'), '1', false)
+WebUI.selectOptionByIndex(findTestObject('Teacher/Region_Dropdown'), '1', FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.verifyOptionSelectedByValue(findTestObject('Teacher/Region_Dropdown'), '1', false, 0)
 
@@ -63,7 +67,7 @@ WebUI.setText(findTestObject('Teacher/Address_txt'), 'مصر الجديده')
 
 WebUI.delay(5)
 
-WebUI.acceptAlert()
+not_run: WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Teacher/Dateofbirth_txt'), '1/1/1996')
 
@@ -77,13 +81,13 @@ WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Teacher/School_Dropdown'), '1', false)
 
-WebUI.verifyOptionNotSelectedByLabel(findTestObject('Teacher/School_Dropdown'), '1', false, 0)
+not_run: WebUI.verifyOptionNotSelectedByLabel(findTestObject('Teacher/School_Dropdown'), '1', false, 0)
 
 WebUI.delay(30)
 
 WebUI.selectOptionByValue(findTestObject('Teacher/Level_Dropdown'), '1', false)
 
-WebUI.verifyOptionNotSelectedByLabel(findTestObject('Teacher/Level_Dropdown'), '1', false, 0)
+not_run: WebUI.verifyOptionNotSelectedByLabel(findTestObject('Teacher/Level_Dropdown'), '1', false, 0)
 
 WebUI.delay(5)
 
@@ -94,4 +98,6 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Teacher/Messaage_txt'), 'lkjhgfdddddddddddddddddddddddddddddddddddddddddd')
 
 WebUI.delay(5)
+
+WebUI.uploadFile(findTestObject('Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\a.PNG')
 
