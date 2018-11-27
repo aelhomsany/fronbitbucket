@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EducationalStage_txt</name>
+   <name>city_dropdown menu</name>
    <tag></tag>
-   <elementGuidId>42819827-ae30-4239-8948-cfc7e2db89aa</elementGuidId>
+   <elementGuidId>f7690de1-e3d0-44c2-8b03-6e43cd5d3e59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+         <value>//*[@id = 'city_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+      <value>city_id</value>
    </webElementProperties>
 </WebElementEntity>

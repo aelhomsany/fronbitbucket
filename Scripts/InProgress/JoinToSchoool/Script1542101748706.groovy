@@ -19,7 +19,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
 WebUI.click(findTestObject('join to school/login_btn'))
 
@@ -47,17 +47,17 @@ WebUI.setText(findTestObject('join to school/phone_txt'), '1234567890')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('join to school/birthdate_txt'), '1/10/2010')
+WebUI.setText(findTestObject('join to school/birthdate_txt'), '01/10/2010')
 
 WebUI.selectOptionByValue(findTestObject('join to school/DropDown_country'), '2', false)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('join to school/DropDown_city'), '34', false)
+WebUI.selectOptionByValue(findTestObject('join to school/DropDown_city'), '35', false)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByIndex(findTestObject('join to school/DropDown_region'), '3', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('join to school/DropDown_region'), '93', false)
 
 WebUI.delay(2)
 
@@ -67,5 +67,5 @@ WebUI.selectOptionByValue(findTestObject('join to school/EducationalStage_txt'),
 
 WebUI.setText(findTestObject('join to school/Experience_txt'), 'HTML ,css')
 
-WebUI.uploadFile(findTestObject('join to school/Image_img'), 'C:\\Users\\elnahas\\git\\regressionEsraa\\Data Files')
+WebUI.uploadFile(findTestObject('join to school/Image_img'), 'C:\\Users\\elnahas\\git\\new branch\\Data Files')
 

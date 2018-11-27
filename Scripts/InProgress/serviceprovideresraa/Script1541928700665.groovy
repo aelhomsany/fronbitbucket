@@ -21,7 +21,7 @@ WebUI.navigateToUrl('https://www.schooolz.com/service_provider/create')
 
 WebUI.delay(40)
 
-WebUI.focus(findTestObject('ServiceProvider/Name_txt'))
+not_run: WebUI.focus(findTestObject('ServiceProvider/Name_txt'))
 
 WebUI.setText(findTestObject('ServiceProvider/Name_txt'), 'esraa')
 

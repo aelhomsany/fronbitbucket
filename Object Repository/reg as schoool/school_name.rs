@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EducationalStage_txt</name>
+   <name>school_name</name>
    <tag></tag>
-   <elementGuidId>42819827-ae30-4239-8948-cfc7e2db89aa</elementGuidId>
+   <elementGuidId>3a19361a-0053-4dc5-aae8-5b437f79e2ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+         <value>//*[@id=&quot;form-validator&quot;]/div/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+      <value>//*[@id=&quot;form-validator&quot;]/div/div[1]/div/input</value>
    </webElementProperties>
 </WebElementEntity>
