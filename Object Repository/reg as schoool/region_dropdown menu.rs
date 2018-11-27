@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EducationalStage_txt</name>
+   <name>region_dropdown menu</name>
    <tag></tag>
-   <elementGuidId>42819827-ae30-4239-8948-cfc7e2db89aa</elementGuidId>
+   <elementGuidId>4e490a02-fd9e-4c26-96b8-51584b0e2dc8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+         <value>//*[@id = 'region_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//*[@id=&quot;form-validator-apply&quot;]/div/div[9]/div/select</value>
+      <value>region_id</value>
    </webElementProperties>
 </WebElementEntity>
