@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add review,Chrome 70.0.3538.102,,2018-11-28 10:28:44,2018-11-28 10:29:02,17.872s,FAILED
+,,,,,,
+Test Cases/InProgress/Login,Chrome 70.0.3538.102,,2018-11-28 10:28:44,2018-11-28 10:28:47,2.443s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-28 10:28:44,2018-11-28 10:28:46,1.180s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-28 10:28:46,2018-11-28 10:28:47,1.019s,FAILED
+,,,,,,
+Test Cases/InProgress/add review,Chrome 70.0.3538.102,,2018-11-28 10:28:47,2018-11-28 10:29:02,14.803s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-28 10:28:47,2018-11-28 10:29:02,14.705s,FAILED

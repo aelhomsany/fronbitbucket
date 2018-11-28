@@ -19,7 +19,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('HomeScreen/login_btn'))
 
@@ -31,7 +31,17 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
 
+WebUI.click(findTestObject('HomeScreen/submit_btn'))
+
 WebUI.delay(3)
 
-WebUI.click(findTestObject('HomeScreen/submit_btn'))
+WebUI.click(findTestObject('courses/courses_btn'))
+
+WebUI.delay(0)
+
+WebUI.click(findTestObject('courses/wordpress_course'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('courses/subscribe_btn'))
 

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add review,Chrome 70.0.3538.102,,2018-11-27 21:08:16,2018-11-27 21:10:07,1m - 50.667s,FAILED
+,,,,,,
+Test Cases/InProgress/Login,Chrome 70.0.3538.102,,2018-11-27 21:08:17,2018-11-27 21:09:32,1m - 15.391s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 21:08:17,2018-11-27 21:08:23,5.384s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-27 21:08:23,2018-11-27 21:08:24,1.356s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-27 21:08:24,2018-11-27 21:09:25,1m - 1.481s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 21:09:25,2018-11-27 21:09:30,5.054s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-27 21:09:31,2018-11-27 21:09:32,1.467s,FAILED
+,,,,,,
+Test Cases/InProgress/add review,Chrome 70.0.3538.102,,2018-11-27 21:09:32,2018-11-27 21:10:05,33.367s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 21:09:32,2018-11-27 21:10:05,33.029s,FAILED
