@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login_btn</name>
+   <name>rehab_school</name>
    <tag></tag>
-   <elementGuidId>e087665b-156a-4924-93f8-7f95562241cc</elementGuidId>
+   <elementGuidId>3f02d7f6-bd9d-4238-a572-59ee4265b3de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;dataContainer&quot;]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tsf&quot;]/div[2]/div[3]/center/input[1]</value>
+      <value>//*[@id=&quot;dataContainer&quot;]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

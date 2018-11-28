@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password_txt</name>
+   <name>login_btn</name>
    <tag></tag>
-   <elementGuidId>9b0edb42-0a53-419c-b1dd-09069922958f</elementGuidId>
+   <elementGuidId>b8f254b6-aa8c-4a75-b519-cb3134555cb0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'password']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;password&quot;]</value>
+      <value>sign-in</value>
    </webElementProperties>
 </WebElementEntity>

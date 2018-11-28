@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password_txt</name>
+   <name>add_review_btn</name>
    <tag></tag>
-   <elementGuidId>9b0edb42-0a53-419c-b1dd-09069922958f</elementGuidId>
+   <elementGuidId>e482cdc9-b07e-46d6-b77d-40ed46233de4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;password&quot;]</value>
+      <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button</value>
    </webElementProperties>
 </WebElementEntity>

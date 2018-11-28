@@ -19,19 +19,21 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('HomeScreen/login_btn'))
+WebUI.click(findTestObject('advanced search1/home_search_btn'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
+WebUI.click(findTestObject('advanced search1/advanced_search_btn'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
+WebUI.click(findTestObject('advanced search1/spciality_checkbox'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('HomeScreen/submit_btn'))
+WebUI.check(findTestObject('advanced search1/governmental'))
+
+WebUI.verifyElementChecked(findTestObject('advanced search1/governmental'), 0)
+
+WebUI.delay(0)
 
