@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>register_btn</name>
+   <tag></tag>
+   <elementGuidId>4590d8d1-805d-4576-a28c-cd2438b4a1e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sign_in&quot;]/div/div/div[2]/div/div[2]/form/div[5]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sign_in&quot;]/div/div/div[2]/div/div[2]/form/div[5]/div/button</value>
+   </webElementProperties>
+</WebElementEntity>
