@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fb_btn</name>
+   <tag></tag>
+   <elementGuidId>1df63e38-5523-4da2-95b3-404846d33463</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sign_in&quot;]/div/div/div[2]/div/div[3]/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sign_in&quot;]/div/div/div[2]/div/div[3]/div[1]/a</value>
+   </webElementProperties>
+</WebElementEntity>
