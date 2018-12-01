@@ -27,13 +27,11 @@ WebUI.click(findTestObject('advanced search1/advanced_search_btn'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('advanced search1/spciality_checkbox'))
+WebUI.click(findTestObject('advanced search1/country'))
 
 WebUI.delay(3)
 
-WebUI.check(findTestObject('advanced search1/governmental'))
+WebUI.check(findTestObject('advanced search1/country_checkbox'))
 
-WebUI.verifyElementChecked(findTestObject('advanced search1/governmental'), 0)
-
-WebUI.delay(0)
+WebUI.verifyElementChecked(findTestObject('advanced search1/country_checkbox'), 0)
 
