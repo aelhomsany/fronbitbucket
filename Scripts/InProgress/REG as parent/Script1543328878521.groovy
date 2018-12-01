@@ -35,9 +35,9 @@ WebUI.setText(findTestObject('REG as parent/phone'), '1234567890')
 
 WebUI.selectOptionByValue(findTestObject('REG as parent/country'), '1', false)
 
-WebUI.selectOptionByIndex(findTestObject('REG as parent/city'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('REG as parent/city'), '1', false)
 
-WebUI.selectOptionByIndex(findTestObject('REG as parent/region'), '2', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('REG as parent/region'), '8', false)
 
 WebUI.setText(findTestObject('REG as parent/address'), 'helioplis')
 

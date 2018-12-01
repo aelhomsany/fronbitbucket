@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>image</name>
+   <name>content</name>
    <tag></tag>
-   <elementGuidId>c54f1e49-8266-40ed-a6bf-f0a35d73d36c</elementGuidId>
+   <elementGuidId>4ed1a108-80ae-4178-bbc1-058569fe66ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'image']</value>
+         <value>//*[@id = 'content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>image</value>
+      <value>content</value>
    </webElementProperties>
 </WebElementEntity>

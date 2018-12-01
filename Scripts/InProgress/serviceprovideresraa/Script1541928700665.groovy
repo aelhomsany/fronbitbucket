@@ -19,7 +19,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com/service_provider/create')
 
-WebUI.delay(40)
+WebUI.delay(3)
 
 not_run: WebUI.focus(findTestObject('ServiceProvider/Name_txt'))
 

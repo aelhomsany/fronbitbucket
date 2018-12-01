@@ -47,9 +47,9 @@ WebUI.setText(findTestObject('add_event/event_ending'), '20/1/2019')
 
 WebUI.selectOptionByValue(findTestObject('add_event/country'), '1', false)
 
-WebUI.selectOptionByValue(findTestObject('add_event/city'), '2', false)
+WebUI.selectOptionByIndex(findTestObject('add_event/city'), '2', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('add_event/region'), '1', false)
+WebUI.selectOptionByIndex(findTestObject('add_event/region'), '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('add_event/address'), 'helioplis')
 

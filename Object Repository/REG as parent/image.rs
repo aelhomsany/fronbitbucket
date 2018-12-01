@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator&quot;]/div/div[13]/div/div/input</value>
+         <value>//*[@id = 'image']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//*[@id=&quot;form-validator&quot;]/div/div[13]/div/div/input</value>
+      <value>image</value>
    </webElementProperties>
 </WebElementEntity>

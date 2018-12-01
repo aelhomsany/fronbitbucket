@@ -41,9 +41,9 @@ WebUI.setText(findTestObject('add_jobs/phone'), '01120354871')
 
 WebUI.selectOptionByValue(findTestObject('add_event/country'), '2', false)
 
-WebUI.selectOptionByIndex(findTestObject('add_event/city'), '2', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('add_event/city'), '3', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByIndex(findTestObject('add_event/region'), '3', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('add_event/region'), '249', false)
 
 WebUI.setText(findTestObject('add_jobs/address'), 'helioplis')
 
