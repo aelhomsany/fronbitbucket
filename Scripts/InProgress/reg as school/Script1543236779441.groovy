@@ -49,7 +49,7 @@ WebUI.selectOptionByValue(findTestObject('reg as schoool/ending week_dropdown me
 
 WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00 AM')
 
-not_run: WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00')
+WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00')
 
 WebUI.setText(findTestObject('reg as schoool/school address_txt'), 'heliopli square')
 
@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('reg as schoool/school_insta'), 'https://www.instgr
 
 WebUI.setText(findTestObject('reg as schoool/school_linkedin'), 'https://www.linkedin.com/aaaaa.52056223')
 
-WebUI.uploadFile(findTestObject('reg as schoool/image'), 'C:\\Users\\elnahas\\git\\regressionEsraa\\Data Files')
+not_run: WebUI.uploadFile(findTestObject('add_jobs/img'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/school_activities'), '1', false)
 

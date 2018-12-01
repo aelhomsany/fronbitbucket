@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>image</name>
+   <name>save_btn</name>
    <tag></tag>
-   <elementGuidId>c54f1e49-8266-40ed-a6bf-f0a35d73d36c</elementGuidId>
+   <elementGuidId>75c07972-0e93-4015-a528-625db35d9ba3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'image']</value>
+         <value>//*[@id=&quot;form-validator&quot;]/div/div[11]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>image</value>
+      <value>//*[@id=&quot;form-validator&quot;]/div/div[11]/button</value>
    </webElementProperties>
 </WebElementEntity>

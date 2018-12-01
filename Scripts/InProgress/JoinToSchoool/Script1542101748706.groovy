@@ -67,5 +67,7 @@ WebUI.selectOptionByValue(findTestObject('join to school/EducationalStage_txt'),
 
 WebUI.setText(findTestObject('join to school/Experience_txt'), 'HTML ,css')
 
-WebUI.uploadFile(findTestObject('join to school/Image_img'), 'C:\\Users\\elnahas\\git\\new branch\\Data Files')
+WebUI.uploadFile(findTestObject('join to school/Image'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
+
+WebUI.click(findTestObject('join to school/save_btn'))
 

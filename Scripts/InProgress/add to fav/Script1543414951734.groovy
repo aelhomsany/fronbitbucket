@@ -23,43 +23,19 @@ WebUI.delay(3)
 
 WebUI.navigateToUrl('http://www.schooolz.com')
 
-not_run: WebUI.delay(3)
-
 WebUI.click(findTestObject('add_event/login_btn'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('add_event/username'), 'yahaschool')
+WebUI.setText(findTestObject('add_event/username'), 'student')
 
 WebUI.setText(findTestObject('add_event/password'), '123456')
 
 WebUI.click(findTestObject('add_event/register_btn'))
 
-WebUI.click(findTestObject('event_btn'))
+WebUI.click(findTestObject('add to fav/schools_btn'))
 
-WebUI.click(findTestObject('add_event/addevent_btn'))
+WebUI.click(findTestObject('add to fav/yahiaschool_btn'))
 
-WebUI.setText(findTestObject('add_event/name'), 'esraa')
-
-WebUI.setText(findTestObject('add_event/event_statring'), '10/1/2019')
-
-WebUI.setText(findTestObject('add_event/event_ending'), '20/1/2019')
-
-WebUI.selectOptionByValue(findTestObject('add_event/country'), '1', false)
-
-WebUI.selectOptionByIndex(findTestObject('add_event/city'), '2', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.selectOptionByIndex(findTestObject('add_event/region'), '1', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('add_event/address'), 'helioplis')
-
-WebUI.uploadFile(findTestObject('add_event/img'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
-
-WebUI.setText(findTestObject('add_event/description'), 'mnc kjcan njNCLNL NLNLAN KNDKVN')
-
-WebUI.setText(findTestObject('add_event/content'), 'mnc kjcan njNCLNL NLNLAN KNDKVN')
-
-WebUI.setText(findTestObject('add_event/target'), 'lnl nknkn kkbk bkjbk kbk nkn k bkj kbk bkj bkj bk ')
-
-WebUI.click(findTestObject('add_event/save_btn'))
+WebUI.click(findTestObject('add to fav/addto fav_btn'))
 

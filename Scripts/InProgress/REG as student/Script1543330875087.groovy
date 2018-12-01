@@ -13,3 +13,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://www.schooolz.com/student/create')
+
+WebUI.setText(findTestObject('reg as visitor/name'), 'esraa9535')
+
+WebUI.setText(findTestObject('reg as visitor/username'), 'esraa222')
+
+WebUI.setText(findTestObject('reg as visitor/email'), 'esraa@yahoo.com')
+
+WebUI.setText(findTestObject('reg as visitor/password'), '123456789')
+
+WebUI.setText(findTestObject('reg as visitor/confirmpassword'), '123456789')
+
+WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
+
+WebUI.selectOptionByValue(findTestObject('reg as visitor/country'), '1', false)
+
+WebUI.selectOptionByIndex(findTestObject('reg as visitor/city'), '2', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('reg as visitor/region'), '3', false)
+
+WebUI.setText(findTestObject('reg as visitor/address'), 'helioplis')
+
+WebUI.setText(findTestObject('reg as visitor/birth date'), '10/10/2010')
+
+WebUI.selectOptionByValue(findTestObject('Reg student2/school'), '1', false)
+
+WebUI.selectOptionByValue(findTestObject('Reg student2/school level'), '1', false)
+
+WebUI.uploadFile(findTestObject('Reg student2/img'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
+
+WebUI.click(findTestObject('Reg student2/save_btn'))
+

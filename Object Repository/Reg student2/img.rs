@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>image</name>
+   <name>img</name>
    <tag></tag>
-   <elementGuidId>c54f1e49-8266-40ed-a6bf-f0a35d73d36c</elementGuidId>
+   <elementGuidId>f171c5b8-a82a-4b32-9945-be91da9089c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

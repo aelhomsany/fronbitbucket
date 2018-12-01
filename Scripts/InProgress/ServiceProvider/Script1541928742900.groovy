@@ -21,7 +21,7 @@ WebUI.navigateToUrl('https://www.schooolz.com/service_provider/create')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ServiceProvider/Name_txt'), 'eman mohamed')
+WebUI.setText(findTestObject('ServiceProvider/Name_txt'), 'eman moh')
 
 WebUI.delay(3)
 
