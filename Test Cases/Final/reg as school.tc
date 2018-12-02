@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>reg as school</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65e7d2cc-68f6-4753-be49-ad101f12a418</testCaseGuid>
+   <variable>
+      <defaultValue>'nkn'</defaultValue>
+      <description></description>
+      <id>71ca8702-59bd-4bef-94ef-3bf5aa330212</id>
+      <masked>true</masked>
+      <name>nbmnbmn</name>
+   </variable>
+</TestCaseEntity>
