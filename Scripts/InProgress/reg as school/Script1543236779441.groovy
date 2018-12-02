@@ -22,10 +22,15 @@ WebUI.navigateToUrl('https://www.schooolz.com/school/create')
 
 not_run: WebUI.delay(5)
 
-WebUI.setText(findTestObject('reg as schoool/school_name'), 'esraa mohamed')
+WebUI.setText(findTestObject('reg as schoool/school_name'), 'oooooo')
 
+<<<<<<< HEAD
 WebUI.delay(5)
+=======
+WebUI.setText(findTestObject('reg as schoool/uname_txt'), 'ppppppppp')
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('reg as schoool/uname_txt'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(5)
@@ -33,6 +38,9 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('reg as schoool/email_txt'), RandomStringUtils.randomAlphabetic(10) + mail2)
 
 WebUI.delay(5)
+=======
+WebUI.setText(findTestObject('reg as schoool/email_txt'), 'www@yahoo.com')
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
 WebUI.setText(findTestObject('reg as schoool/password_txt'), '123456789')
 
@@ -64,13 +72,17 @@ WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/ending week_dropdown menu'), 'الخميس', false)
 
+<<<<<<< HEAD
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00 AM')
 
 WebUI.delay(5)
+=======
+WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00AM')
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
-not_run: WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00')
+WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00PM')
 
 WebUI.setText(findTestObject('reg as schoool/school address_txt'), 'heliopli square')
 
@@ -96,7 +108,7 @@ WebUI.setText(findTestObject('reg as schoool/school_linkedin'), 'https://www.lin
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('reg as schoool/image'), 'C:\\Users\\elnahas\\git\\regressionEsraa\\Data Files')
+WebUI.uploadFile(findTestObject('add_jobs/img'), GlobalVariable.f_path)
 
 WebUI.delay(5)
 
@@ -161,4 +173,8 @@ WebUI.setText(findTestObject('reg as schoool/vision'), 'sndj nkjSNDJLVN NJnvla j
 WebUI.delay(5)
 
 WebUI.click(findTestObject('reg as schoool/submit'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('reg as schoool/success_msg'), 0)
 

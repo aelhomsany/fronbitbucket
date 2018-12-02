@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reg as visitor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9a354f3-c6d7-41db-8a26-18423dd6e377</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmail.com'</defaultValue>
+      <description></description>
+      <id>65c252cc-7172-4432-a79f-bdb481a35c6d</id>
+      <masked>false</masked>
+      <name>visitor_var</name>
+   </variable>
+</TestCaseEntity>

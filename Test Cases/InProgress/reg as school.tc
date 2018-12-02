@@ -6,10 +6,18 @@
    <comment></comment>
    <testCaseGuid>6b65d38f-d71c-4cfb-bf6b-40732123c0ee</testCaseGuid>
    <variable>
+<<<<<<< HEAD
       <defaultValue>'@gmail.om'</defaultValue>
       <description></description>
       <id>4aceb108-c262-4243-9c0c-7349be5d98b5</id>
       <masked>false</masked>
       <name>mail2</name>
+=======
+      <defaultValue>'nkn'</defaultValue>
+      <description></description>
+      <id>050b7acb-0d73-4555-943a-b8fa701ea8c0</id>
+      <masked>true</masked>
+      <name>nbmnbmn</name>
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
    </variable>
 </TestCaseEntity>

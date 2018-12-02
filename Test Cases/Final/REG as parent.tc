@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG as parent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e9d1ce9-7409-4f5f-9f57-68a9300a6f2a</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmai.com'</defaultValue>
+      <description></description>
+      <id>fdc8d851-a1c0-436d-a67b-8d4c80f61bbb</id>
+      <masked>false</masked>
+      <name>mail_var</name>
+   </variable>
+</TestCaseEntity>

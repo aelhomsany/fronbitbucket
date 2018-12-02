@@ -22,15 +22,23 @@ WebUI.navigateToUrl('https://www.schooolz.com/teacher/create')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), 'eman mohamed')
+WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(3)
 
+<<<<<<< HEAD
 not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStringUtils.randomAlphabetic(10))
+=======
+WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStringUtils.randomAlphabetic(10))
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
 WebUI.delay(5)
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10)+mail1_var)
+=======
+WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10) + teacher_var)
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
 WebUI.delay(5)
 
@@ -48,27 +56,19 @@ WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Reg as Teacher/Country_Dropdown'), '1', false)
 
-not_run: WebUI.verifyOptionSelectedByLabel(findTestObject('Reg as Teacher/Country_Dropdown'), '1', false, 60)
-
 WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Reg as Teacher/DropdownCity'), '1', false)
 
-not_run: WebUI.verifyOptionPresentByValue(findTestObject('Reg as Teacher/DropdownCity'), '3', false, 60)
-
 WebUI.delay(5)
 
 WebUI.selectOptionByIndex(findTestObject('Reg as Teacher/Region_Dropdown'), '1', FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.verifyOptionSelectedByValue(findTestObject('Reg as Teacher/Region_Dropdown'), '1', false, 0)
 
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Reg as Teacher/Address_txt'), 'مصر الجديده')
 
 WebUI.delay(5)
-
-not_run: WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Reg as Teacher/Dateofbirth_txt'), '1/1/1996')
 
