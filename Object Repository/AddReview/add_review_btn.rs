@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button</value>
+         <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button</value>
+      <value>//*[@id=&quot;displayReviews&quot;]/div/div/div[3]/div/button/i</value>
    </webElementProperties>
 </WebElementEntity>

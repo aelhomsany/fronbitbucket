@@ -8,8 +8,14 @@
    <variable>
       <defaultValue>'@gmail.com'</defaultValue>
       <description></description>
+<<<<<<< HEAD
+      <id>bd5950bd-df94-411d-a9f7-116fc73678d2</id>
+      <masked>false</masked>
+      <name>mail1_var</name>
+=======
       <id>719a46c2-9989-46db-b8d1-a61d77ff209f</id>
       <masked>false</masked>
       <name>teacher_var</name>
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
    </variable>
 </TestCaseEntity>

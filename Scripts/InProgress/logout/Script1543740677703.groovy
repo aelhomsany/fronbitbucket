@@ -19,55 +19,27 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('HomeScreen/login_btn'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('HomeScreen/submit_btn'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('AddReview/schools_btn'))
+WebUI.click(findTestObject('HomeScreen/profile_icon'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('AddReview/numbers_btn'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('AddReview/MainDiv_School'), 10)
-
-WebUI.delay(4)
-
-WebUI.focus(findTestObject('AddReview/MainDiv_School'))
-
-WebUI.click(findTestObject('AddReview/MainDiv_School'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('AddReview/add_review_btn'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('AddReview/Description_txt'), 'very nice')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('AddReview/ranke'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('AddReview/submit_review'))
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject('HomeScreen/logout_button'))
 

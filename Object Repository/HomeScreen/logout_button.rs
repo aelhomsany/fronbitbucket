@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Phone_txt</name>
+   <name>logout_button</name>
    <tag></tag>
-   <elementGuidId>2f64691f-6051-4585-bf96-436f4556dce5</elementGuidId>
+   <elementGuidId>8b7f2503-7376-4d87-8039-7848dee70008</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'phone']</value>
+         <value>//*[@id=&quot;app-navbar-collapse&quot;]/ul[2]/li[3]/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>phone</value>
+      <value>//*[@id=&quot;app-navbar-collapse&quot;]/ul[2]/li[3]/ul/li[2]</value>
    </webElementProperties>
 </WebElementEntity>

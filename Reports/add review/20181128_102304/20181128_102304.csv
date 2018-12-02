@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-add review,,,2018-11-28 10:23:08,2018-11-28 10:27:12,4m - 4.116s,FAILED
-,,,,,,
-Test Cases/InProgress/Login,,,2018-11-28 10:23:09,2018-11-28 10:24:10,1m - 1.658s,FAILED
-openBrowser,,,2018-11-28 10:23:09,2018-11-28 10:24:10,1m - 1.425s,FAILED
-,,,,,,
-Test Cases/InProgress/add review,,,2018-11-28 10:24:10,2018-11-28 10:26:12,2m - 1.336s,FAILED
-click,,,2018-11-28 10:24:11,2018-11-28 10:26:12,2m - 1.184s,FAILED

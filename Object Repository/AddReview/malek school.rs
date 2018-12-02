@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Phone_txt</name>
+   <name>malek school</name>
    <tag></tag>
-   <elementGuidId>2f64691f-6051-4585-bf96-436f4556dce5</elementGuidId>
+   <elementGuidId>c49fca7c-9da6-4292-a448-78252e6fafae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'phone']</value>
+         <value>//*[@id=&quot;item&quot;]/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>phone</value>
+      <value>//*[@id=&quot;item&quot;]/a/img</value>
    </webElementProperties>
 </WebElementEntity>

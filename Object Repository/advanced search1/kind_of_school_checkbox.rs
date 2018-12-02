@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;filter_box&quot;]</value>
+         <value>//*[@name = 'type_fk=1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>name</name>
       <type>Main</type>
-      <value>//*[@id=&quot;filter_box&quot;]</value>
+      <value>type_fk=1</value>
    </webElementProperties>
 </WebElementEntity>

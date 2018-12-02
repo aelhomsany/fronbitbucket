@@ -20,17 +20,25 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com/teacher/create')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(3)
 
+<<<<<<< HEAD
+not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStringUtils.randomAlphabetic(10))
+=======
 WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStringUtils.randomAlphabetic(10))
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
 WebUI.delay(5)
 
+<<<<<<< HEAD
+WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10)+mail1_var)
+=======
 WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10) + teacher_var)
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 
 WebUI.delay(5)
 
@@ -92,5 +100,5 @@ WebUI.setText(findTestObject('Reg as Teacher/Messaage_txt'), 'lkjhgfdddddddddddd
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Reg as Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\a.PNG')
+WebUI.uploadFile(findTestObject('Reg as Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 

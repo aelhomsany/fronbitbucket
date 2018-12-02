@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
+         <value>//*[@id = 'username' and @name = 'username']</value>
+=======
          <value>//*[@id = 'username']</value>
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +22,15 @@
       <name>id</name>
       <type>Main</type>
       <value>username</value>
+<<<<<<< HEAD
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>username</value>
+=======
+>>>>>>> branch 'master' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
    </webElementProperties>
 </WebElementEntity>
