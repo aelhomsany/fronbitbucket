@@ -19,13 +19,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com/teacher/create')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), 'eman mohamed')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), 'student')
+not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), 'student')
 
 WebUI.delay(5)
 
@@ -99,5 +99,5 @@ WebUI.setText(findTestObject('Reg as Teacher/Messaage_txt'), 'lkjhgfdddddddddddd
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Reg as Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\a.PNG')
+WebUI.uploadFile(findTestObject('Reg as Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Phone_txt</name>
+   <name>gender1_checkbox</name>
    <tag></tag>
-   <elementGuidId>2f64691f-6051-4585-bf96-436f4556dce5</elementGuidId>
+   <elementGuidId>5df2fd41-c68b-4e97-bf7a-fe3eebdb39d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'phone']</value>
+         <value>//*[@name = 'gender_fk=2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>phone</value>
+      <value>gender_fk=2</value>
    </webElementProperties>
 </WebElementEntity>
