@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
 
@@ -25,11 +26,11 @@ WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), 'eman mohamed')
 
 WebUI.delay(3)
 
-not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), 'student')
+not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), 'eman555@yahoo.com')
+WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10)+mail1_var)
 
 WebUI.delay(5)
 

@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('')
 
@@ -23,19 +24,31 @@ not_run: WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/school_name'), 'esraa mohamed')
 
-WebUI.setText(findTestObject('reg as schoool/uname_txt'), 'esraa')
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('reg as schoool/email_txt'), 'esraa@yahoo.com')
+WebUI.setText(findTestObject('reg as schoool/uname_txt'), RandomStringUtils.randomAlphabetic(10))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('reg as schoool/email_txt'), RandomStringUtils.randomAlphabetic(10) + mail2)
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/password_txt'), '123456789')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/confirm pass_txt'), '123456789')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/phone_txt'), '1234567890')
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/country_dropdown menu'), '1', false)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/city_dropdown menu'), '1', false)
 
@@ -43,57 +56,109 @@ WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/region_dropdown menu'), '8', false)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/week starting_dropdown menu'), 'السبت', false)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/ending week_dropdown menu'), 'الخميس', false)
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00 AM')
+
+WebUI.delay(5)
 
 not_run: WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00')
 
 WebUI.setText(findTestObject('reg as schoool/school address_txt'), 'heliopli square')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/fax_txt'), '12345678912')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/school_facebook'), 'https://www.facebook.com/aaaaa.52056223')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/school_twitter'), 'https://www.twitter.com/aaaaa.52056223')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/school_insta'), 'https://www.instgram.com/aaaaa.52056223')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/school_linkedin'), 'https://www.linkedin.com/aaaaa.52056223')
+
+WebUI.delay(5)
 
 WebUI.uploadFile(findTestObject('reg as schoool/image'), 'C:\\Users\\elnahas\\git\\regressionEsraa\\Data Files')
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/school_activities'), '1', false)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/school type_dropdown menu'), '1', false)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/category'), '1', false)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/gender'), '2', false)
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/fees'), '12345')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/capacity'), '100')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/rooms'), '100')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/labs'), '100')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/playground'), '100')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/teachers'), '100')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/longitude'), '10')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/latitude'), '10')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/message'), 'hb kbnkjn nnjjnkj')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/description'), 'kldln njlnflnd lnvld nldvnl kndlsknv')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/vision'), 'sndj nkjSNDJLVN NJnvla jhnvj nvkjn')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('reg as schoool/submit'))
 
