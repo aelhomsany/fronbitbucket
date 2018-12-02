@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg'</initValue>
+      <name>f_path</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

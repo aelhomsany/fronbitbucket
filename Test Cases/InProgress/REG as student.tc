@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d16ad477-7679-480c-aa02-55b7013db75d</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmail.com'</defaultValue>
+      <description></description>
+      <id>ce7542ec-dec2-41b5-8e6c-010d4efad044</id>
+      <masked>false</masked>
+      <name>parenrt_mail</name>
+   </variable>
 </TestCaseEntity>

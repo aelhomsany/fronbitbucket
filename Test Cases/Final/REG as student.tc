@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG as student</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c8268fd-f089-449c-aeef-dc94c088fe9a</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmail.com'</defaultValue>
+      <description></description>
+      <id>0be61743-a038-4ad9-98c9-1ecc869337e8</id>
+      <masked>false</masked>
+      <name>parenrt_mail</name>
+   </variable>
+</TestCaseEntity>

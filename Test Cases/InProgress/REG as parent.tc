@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3b8404b8-4aa1-47f8-9002-771ce1c6951a</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmai.com'</defaultValue>
+      <description></description>
+      <id>b05dcade-8034-4b15-a122-218c9c45ef72</id>
+      <masked>false</masked>
+      <name>mail_var</name>
+   </variable>
 </TestCaseEntity>

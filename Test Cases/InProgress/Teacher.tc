@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8460086c-2785-4279-87ea-75db67705006</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmail.com'</defaultValue>
+      <description></description>
+      <id>719a46c2-9989-46db-b8d1-a61d77ff209f</id>
+      <masked>false</masked>
+      <name>teacher_var</name>
+   </variable>
 </TestCaseEntity>
