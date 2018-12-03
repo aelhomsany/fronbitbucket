@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Teacher - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23686a78-bedb-422c-a19e-c9ac4911da2d</testCaseGuid>
+   <variable>
+      <defaultValue>'@gmail.com'</defaultValue>
+      <description></description>
+      <id>6b07b4d6-518c-441a-920c-6c41b400aa79</id>
+      <masked>false</masked>
+      <name>teacher_var</name>
+   </variable>
+</TestCaseEntity>
