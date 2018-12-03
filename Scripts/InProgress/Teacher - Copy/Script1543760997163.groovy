@@ -22,7 +22,7 @@ WebUI.navigateToUrl('https://www.schooolz.com/teacher/create')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Name_txt'), RandomStringUtils.randomAlphabetic(10))
+WebUI.setText(findTestObject('Reg as Teacher1/Name_txt'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(3)
 
@@ -30,69 +30,69 @@ not_run: WebUI.setText(findTestObject('Reg as Teacher/Usernamee_txt'), RandomStr
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Email_txt'), RandomStringUtils.randomAlphabetic(10) + teacher_var)
+WebUI.setText(findTestObject('Reg as Teacher1/Email_txt'), RandomStringUtils.randomAlphabetic(10) + teacher_var)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Password_txt'), '123456789')
+WebUI.setText(findTestObject('Reg as Teacher1/Password_txt'), '123456789')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/ConfirmPassword_txt'), '123456789')
+WebUI.setText(findTestObject('Reg as Teacher1/ConfirmPassword_txt'), '123456789')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Phone_txt'), '01022723522')
+WebUI.setText(findTestObject('Reg as Teacher1/Phone_txt'), '01022723522')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Reg as Teacher/Country_Dropdown'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Reg as Teacher1/Country_Dropdown'), '1', false)
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Reg as Teacher/DropdownCity'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Reg as Teacher1/DropdownCity'), '1', false)
 
 WebUI.delay(5)
 
-WebUI.selectOptionByIndex(findTestObject('Reg as Teacher/Region_Dropdown'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('Reg as Teacher1/Region_Dropdown'), '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Address_txt'), 'مصر الجديده')
+WebUI.setText(findTestObject('Reg as Teacher1/Address_txt'), 'مصر الجديده')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Dateofbirth_txt'), '1/1/1996')
+WebUI.setText(findTestObject('Reg as Teacher1/Dateofbirth_txt'), '1/1/1996')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Id_txt'), '12345678978945')
+WebUI.setText(findTestObject('Reg as Teacher1/Id_txt'), '12345678978945')
 
 WebUI.delay(0)
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Reg as Teacher/School_Dropdown'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Reg as Teacher1/School_Dropdown'), '1', false)
 
 not_run: WebUI.verifyOptionNotSelectedByLabel(findTestObject('Reg as Teacher/School_Dropdown'), '1', false, 0)
 
 WebUI.delay(30)
 
-WebUI.selectOptionByValue(findTestObject('Reg as Teacher/Level_Dropdown'), '1', false)
+WebUI.selectOptionByValue(findTestObject('Reg as Teacher1/Level_Dropdown'), '1', false)
 
 not_run: WebUI.verifyOptionNotSelectedByLabel(findTestObject('Reg as Teacher/Level_Dropdown'), '1', false, 0)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/speciality'), 'كيمياء')
+WebUI.setText(findTestObject('Reg as Teacher1/speciality'), 'كيمياء')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Reg as Teacher/Messaage_txt'), 'lkjhgfdddddddddddddddddddddddddddddddddddddddddd')
+WebUI.setText(findTestObject('Reg as Teacher1/Messaage_txt'), 'lkjhgfdddddddddddddddddddddddddddddddddddddddddd')
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Reg as Teacher/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\a.PNG')
+WebUI.uploadFile(findTestObject('Reg as Teacher1/image_btn'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Reg as Teacher1/save_btn'))
 
