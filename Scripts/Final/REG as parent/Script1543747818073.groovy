@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.apache.commons.lang.RandomStringUtils as RandStr
 
 WebUI.openBrowser('')
 
@@ -22,18 +23,18 @@ WebUI.navigateToUrl('http://www.schooolz.com/parent/create')
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('REG as parent/par_name'), RandomStringUtils.randomAlphabetic(10))
+WebUI.setText(findTestObject('REG as parent/par_name'), RandomStringUtils.randomAlphabetic(5))
+par_uname=RandomStringUtils.randomAlphabetic(6)
 
+WebUI.setText(findTestObject('REG as parent/user_name'),par_uname, FailureHandling.STOP_ON_FAILURE )
 
-WebUI.setText(findTestObject('REG as parent/user_name'), RandomStringUtils.randomAlphabetic(10))
-
-WebUI.setText(findTestObject('REG as parent/Email'), RandomStringUtils.randomAlphabetic(10)+mail_var)
+WebUI.setText(findTestObject('REG as parent/Email'), RandomStringUtils.randomAlphabetic(3) + mail_var, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('REG as parent/password'), '123456789')
 
 WebUI.setText(findTestObject('REG as parent/conf_password'), '123456789')
 
-WebUI.setText(findTestObject('REG as parent/phone'), '1234567890')
+WebUI.setText(findTestObject('REG as parent/phone'),  '13456852012', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('REG as parent/country'), '1', false)
 
@@ -51,7 +52,7 @@ WebUI.setText(findTestObject('REG as parent/address'), 'helioplis')
 
 WebUI.setText(findTestObject('REG as parent/date_birth'), '10/10/2010')
 
-WebUI.setText(findTestObject('REG as parent/ssn'), '12345678912345')
+WebUI.setText(findTestObject('REG as parent/ssn'),public static String random(int 10), FailureHandling.STOP_ON_FAILURE )
 
 WebUI.uploadFile(findTestObject('REG as parent/image'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
 

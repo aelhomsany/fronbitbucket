@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>mail_var</name>
    </variable>
+   <variable>
+      <defaultValue>'RandomStringUtils.randomAlphabetic(10)'</defaultValue>
+      <description></description>
+      <id>6cf71fee-e84f-47f2-a58f-1502edd8209e</id>
+      <masked>false</masked>
+      <name>par_uname</name>
+   </variable>
 </TestCaseEntity>

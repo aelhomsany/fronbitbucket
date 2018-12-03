@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>mail_var</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.par_uname</defaultValue>
+      <description></description>
+      <id>2e1d3d9c-ddb5-4fa9-8c6a-b6b7d312adb5</id>
+      <masked>false</masked>
+      <name>par_uname</name>
+   </variable>
 </TestCaseEntity>
