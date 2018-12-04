@@ -13,27 +13,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.schooolz.com')
+not_run: WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('HomeScreen/login_btn'))
+not_run: WebUI.click(findTestObject('HomeScreen/login_btn'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
+not_run: WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
+not_run: WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('HomeScreen/submit_btn'))
+not_run: WebUI.click(findTestObject('HomeScreen/submit_btn'))
 
 WebUI.delay(3)
 
