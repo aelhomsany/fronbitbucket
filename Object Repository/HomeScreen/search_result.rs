@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_result</name>
+   <tag></tag>
+   <elementGuidId>70333d1e-dc74-4558-945f-160f11044ea1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/section[3]/div/div[3]/div/div[2]/div/div[2]/div/div[3]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/section[3]/div/div[3]/div/div[2]/div/div[2]/div/div[3]/p</value>
+   </webElementProperties>
+</WebElementEntity>

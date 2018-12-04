@@ -12,26 +12,27 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.openBrowser('')
+not_run: WebUI.click(findTestObject('join to school/login_btn'))
 
-WebUI.maximizeWindow()
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.schooolz.com')
+not_run: WebUI.maximizeWindow()
 
-WebUI.delay(5)
+not_run: WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.click(findTestObject('join to school/login_btn'))
+not_run: WebUI.delay(5)
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.setText(findTestObject('join to school/UserName_txt'), 'superadmin')
+not_run: WebUI.setText(findTestObject('join to school/UserName_txt'), 'superadmin')
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
-WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
+not_run: WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
 WebUI.click(findTestObject('join to school/register_btn'))
 
@@ -45,15 +46,13 @@ WebUI.click(findTestObject('add_jobs/addjob_btn'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('add_jobs/name'), 'sw tester')
+WebUI.setText(findTestObject('add_jobs/name'), RandomStringUtils.randomAlphabetic(5))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('add_jobs/Email'), 'esraa@yahoo.com')
+WebUI.setText(findTestObject('add_jobs/Email'), RandomStringUtils.randomAlphabetic(5) + '@yahoo.com')
 
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('add_jobs/phone'), '01120354871')
+WebUI.setText(findTestObject('add_jobs/phone'), '01120354870')
 
 WebUI.delay(5)
 
@@ -86,4 +85,6 @@ WebUI.uploadFile(findTestObject('add_jobs/img'), 'C:\\Users\\M.Kamel\\git\\regre
 WebUI.delay(5)
 
 WebUI.click(findTestObject('add_jobs/save_btn'))
+
+WebUI.verifyTextPresent('تم', false)
 

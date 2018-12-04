@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://www.schooolz.com')
+not_run: WebUI.navigateToUrl('http://www.schooolz.com')
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
 WebUI.click(findTestObject('comparison between schools/schools_btn'))
 

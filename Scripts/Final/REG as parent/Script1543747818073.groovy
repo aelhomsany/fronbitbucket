@@ -26,21 +26,21 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('REG as parent/par_name'), RandomStringUtils.randomAlphabetic(5))
 par_uname=RandomStringUtils.randomAlphabetic(6)
 
-WebUI.setText(findTestObject('REG as parent/user_name'),par_uname, FailureHandling.STOP_ON_FAILURE )
+WebUI.setText(findTestObject('REG as parent/user_name'),par_uname )
 
-WebUI.setText(findTestObject('REG as parent/Email'), RandomStringUtils.randomAlphabetic(3) + mail_var, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('REG as parent/Email'), RandomStringUtils.randomAlphabetic(3) + mail_var)
 
 WebUI.setText(findTestObject('REG as parent/password'), '123456789')
 
 WebUI.setText(findTestObject('REG as parent/conf_password'), '123456789')
 
-WebUI.setText(findTestObject('REG as parent/phone'),  '13456852012', FailureHandling.STOP_ON_FAILURE)
+//WebUI.setText(findTestObject('REG as parent/phone'),  '13456852012')
 
 WebUI.selectOptionByValue(findTestObject('REG as parent/country'), '1', false)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByIndex(findTestObject('REG as parent/city'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('REG as parent/city'), '1')
 
 WebUI.delay(3)
 
@@ -52,7 +52,7 @@ WebUI.setText(findTestObject('REG as parent/address'), 'helioplis')
 
 WebUI.setText(findTestObject('REG as parent/date_birth'), '10/10/2010')
 
-WebUI.setText(findTestObject('REG as parent/ssn'),public static String random(int 10), FailureHandling.STOP_ON_FAILURE )
+//WebUI.setText(findTestObject('REG as parent/ssn'),'2543678294' )
 
 WebUI.uploadFile(findTestObject('REG as parent/image'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
 

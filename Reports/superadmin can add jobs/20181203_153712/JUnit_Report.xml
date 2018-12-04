@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="superadmin can add jobs" time="108" tests="3" failures="0" errors="0">
+   <testsuite name="superadmin can add jobs" tests="3" failures="0" errors="0" time="108" timestamp="2018-12-03 15:37:14" hostname="M.Kamel - 10.1.210.199" id="Test Suites/superadmin can add jobs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M.Kamel\\git\\regression22\\Reports\\superadmin can add jobs\\20181203_153712"/>
+         <property name="logFiles" value="C:\\Users\\M.Kamel\\git\\regression22\\Reports\\superadmin can add jobs\\20181203_153712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M.Kamel - 10.1.210.199"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.1.210.199"/>
+         <property name="sessionId" value="90143327493b6ca1c241d6dd60ab95cb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Final/Login - superadmin" classname="Test Cases/Final/Login - superadmin" status="PASSED">
+         <system-out><![CDATA[2018-12-03 15:37:14 - [TEST_CASE][PASSED] - Test Cases/Final/Login - superadmin: Test Cases/Final/Login - superadmin
+
+2018-12-03 15:37:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-03 15:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 15:37:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-03 15:37:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-03 15:37:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-03 15:37:29 - [MESSAGE][PASSED] - Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-03 15:37:29 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-03 15:37:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-12-03 15:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/join to school/login_btn' is clicked on
+
+2018-12-03 15:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/join to school/login_btn' is clicked on
+
+2018-12-03 15:37:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:37:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:37:44 - [TEST_STEP][PASSED] - setText: Text 'superadmin' is set on object 'Object Repository/join to school/UserName_txt'
+
+2018-12-03 15:37:45 - [MESSAGE][PASSED] - Text 'superadmin' is set on object 'Object Repository/join to school/UserName_txt'
+
+2018-12-03 15:37:45 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/join to school/UserPassword_txt'
+
+2018-12-03 15:37:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/join to school/UserPassword_txt'
+
+2018-12-03 15:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/join to school/register_btn' is clicked on
+
+2018-12-03 15:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/join to school/register_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/nav_to_HS" classname="Test Cases/Final/nav_to_HS" status="PASSED">
+         <system-out><![CDATA[2018-12-03 15:37:47 - [TEST_CASE][PASSED] - Test Cases/Final/nav_to_HS: Test Cases/Final/nav_to_HS
+
+2018-12-03 15:37:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.schooolz.com' successfully
+
+2018-12-03 15:37:58 - [MESSAGE][PASSED] - Navigate to 'http://www.schooolz.com' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/add_jobs" classname="Test Cases/Final/add_jobs" status="PASSED">
+         <system-out><![CDATA[2018-12-03 15:37:58 - [TEST_CASE][PASSED] - Test Cases/Final/add_jobs: Test Cases/Final/add_jobs
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-03 15:37:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-03 15:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-03 15:37:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_jobs/jobs_btn' is clicked on
+
+2018-12-03 15:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/add_jobs/jobs_btn' is clicked on
+
+2018-12-03 15:38:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_jobs/addjob_btn' is clicked on
+
+2018-12-03 15:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/add_jobs/addjob_btn' is clicked on
+
+2018-12-03 15:38:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:11 - [TEST_STEP][PASSED] - setText: Text 'CHzKi' is set on object 'Object Repository/add_jobs/name'
+
+2018-12-03 15:38:12 - [MESSAGE][PASSED] - Text 'CHzKi' is set on object 'Object Repository/add_jobs/name'
+
+2018-12-03 15:38:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:17 - [TEST_STEP][PASSED] - setText: Text 'LEoop@yahoo.com' is set on object 'Object Repository/add_jobs/Email'
+
+2018-12-03 15:38:17 - [MESSAGE][PASSED] - Text 'LEoop@yahoo.com' is set on object 'Object Repository/add_jobs/Email'
+
+2018-12-03 15:38:17 - [TEST_STEP][PASSED] - setText: Text '01120354870' is set on object 'Object Repository/add_jobs/phone'
+
+2018-12-03 15:38:17 - [MESSAGE][PASSED] - Text '01120354870' is set on object 'Object Repository/add_jobs/phone'
+
+2018-12-03 15:38:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/add_event/country' 
+
+2018-12-03 15:38:23 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/add_event/country' 
+
+2018-12-03 15:38:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:28 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/add_event/city'
+
+2018-12-03 15:38:28 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/add_event/city'
+
+2018-12-03 15:38:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '249' are selected in object 'Object Repository/add_event/region' 
+
+2018-12-03 15:38:33 - [MESSAGE][PASSED] - All options with value '249' are selected in object 'Object Repository/add_event/region' 
+
+2018-12-03 15:38:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:38 - [TEST_STEP][PASSED] - setText: Text 'helioplis' is set on object 'Object Repository/add_jobs/address'
+
+2018-12-03 15:38:38 - [MESSAGE][PASSED] - Text 'helioplis' is set on object 'Object Repository/add_jobs/address'
+
+2018-12-03 15:38:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:43 - [TEST_STEP][PASSED] - setText: Text 'mnc kjcan njNCLNL NLNLAN KNDKVN' is set on object 'Object Repository/add_event/description'
+
+2018-12-03 15:38:44 - [MESSAGE][PASSED] - Text 'mnc kjcan njNCLNL NLNLAN KNDKVN' is set on object 'Object Repository/add_event/description'
+
+2018-12-03 15:38:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:49 - [TEST_STEP][PASSED] - setText: Text 'mnc kjcan njNCLNL NLNLAN KNDKVN' is set on object 'Object Repository/add_event/content'
+
+2018-12-03 15:38:49 - [MESSAGE][PASSED] - Text 'mnc kjcan njNCLNL NLNLAN KNDKVN' is set on object 'Object Repository/add_event/content'
+
+2018-12-03 15:38:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:54 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\M.Kamel\git\regression22\Data Files\1.jpg' sent to object: 'Object Repository/add_jobs/img'
+
+2018-12-03 15:38:54 - [MESSAGE][PASSED] - File 'C:\Users\M.Kamel\git\regression22\Data Files\1.jpg' sent to object: 'Object Repository/add_jobs/img'
+
+2018-12-03 15:38:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-03 15:38:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-03 15:38:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_jobs/save_btn' is clicked on
+
+2018-12-03 15:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/add_jobs/save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-03 15:37:14 - [TEST_SUITE][PASSED] - superadmin can add jobs: Test Cases/Final/add_jobs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
