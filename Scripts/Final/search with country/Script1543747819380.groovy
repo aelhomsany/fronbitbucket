@@ -13,17 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.schooolz.com')
+not_run: WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.click(findTestObject('advanced search1/home_search_btn'))
+not_run: WebUI.click(findTestObject('advanced search1/home_search_btn'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('advanced search1/advanced_search_btn'))
+not_run: WebUI.click(findTestObject('advanced search1/advanced_search_btn'))
 
 WebUI.delay(3)
 
@@ -34,4 +34,7 @@ WebUI.delay(3)
 WebUI.check(findTestObject('advanced search1/country_checkbox'))
 
 WebUI.verifyElementChecked(findTestObject('advanced search1/country_checkbox'), 0)
+
+WebUI.delay(1)
+
 

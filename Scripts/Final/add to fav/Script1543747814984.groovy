@@ -13,29 +13,37 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.navigateToUrl('http://www.schooolz.com')
+not_run: WebUI.navigateToUrl('http://www.schooolz.com')
 
-WebUI.click(findTestObject('add_event/login_btn'))
+not_run: WebUI.click(findTestObject('add_event/login_btn'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.setText(findTestObject('add_event/username'), 'student')
+not_run: WebUI.setText(findTestObject('add_event/username'), 'student')
 
-WebUI.setText(findTestObject('add_event/password'), '123456')
+not_run: WebUI.setText(findTestObject('add_event/password'), '123456')
 
-WebUI.click(findTestObject('add_event/register_btn'))
+not_run: WebUI.click(findTestObject('add_event/register_btn'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('add to fav/schools_btn'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('add to fav/yahiaschool_btn'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('add to fav/addto fav_btn'))
+
+WebUI.delay(5)
 

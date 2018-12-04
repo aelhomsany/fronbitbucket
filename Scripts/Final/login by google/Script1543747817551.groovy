@@ -27,3 +27,21 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('login by google/g_btn'))
 
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('login by google/email'), 'aradocsauto@gmail.com')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('login by google/submit_btn'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('login by google/password'), '@r@Docs0100')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('login by google/submit1'))
+
+WebUI.delay(5)
+
