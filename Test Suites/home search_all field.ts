@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test</name>
+   <name>home search_all field</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-17T15:44:49</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>7c2f9052-29a7-4e21-a166-42e706cbffe9</testSuiteGuid>
+   <testSuiteGuid>f593d683-8098-4d34-8ce5-7324a4323f0b</testSuiteGuid>
    <testCaseLink>
-      <guid>e743d0e2-b085-443a-9a0c-527af777912d</guid>
+      <guid>b9c691e9-2adc-46da-b510-264148783614</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/InProgress/AlaaTest</testCaseId>
+      <testCaseId>Test Cases/Final/home search</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

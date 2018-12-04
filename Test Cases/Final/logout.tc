@@ -4,5 +4,9 @@
    <name>logout</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>76e09bf7-93c5-4dc1-b2e4-93cb843ca647</testCaseGuid>
+=======
    <testCaseGuid>b935510b-a6a8-4a2a-a777-35e1ee6dfa3a</testCaseGuid>
+>>>>>>> branch 'RegistarionEman' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 </TestCaseEntity>

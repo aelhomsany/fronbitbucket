@@ -4,5 +4,9 @@
    <name>login as teacher</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>752d1d07-c7e3-4e45-b385-4e3b26368e43</testCaseGuid>
+=======
    <testCaseGuid>3fe878c0-00c9-4199-ac8b-b5dbe75c51e3</testCaseGuid>
+>>>>>>> branch 'RegistarionEman' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 </TestCaseEntity>

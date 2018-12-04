@@ -17,29 +17,29 @@ not_run: WebUI.openBrowser('')
 
 not_run: WebUI.maximizeWindow()
 
-not_run: WebUI.navigateToUrl('http://www.schooolz.com')
+not_run: WebUI.navigateToUrl('https://www.schooolz.com')
 
 not_run: WebUI.delay(5)
 
-WebUI.click(findTestObject('comparison between schools/schools_btn'))
+not_run: WebUI.click(findTestObject('HomeScreen/login_btn'))
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.click(findTestObject('HomeScreen/submit_btn'))
+
+not_run: WebUI.delay(5)
+
+WebUI.click(findTestObject('HomeScreen/profile_icon'))
 
 WebUI.delay(5)
 
-WebUI.check(findTestObject('comparison between schools/addto compare_btn'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto compare_btn'), 0)
-
-WebUI.delay(5)
-
-WebUI.check(findTestObject('comparison between schools/addto comp2'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto comp2'), 0)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('comparison between schools/comparisonlist_btn'))
+WebUI.click(findTestObject('HomeScreen/logout_button'))
 

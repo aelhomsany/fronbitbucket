@@ -4,5 +4,9 @@
    <name>Login - visitor</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>44a04801-1d09-46fa-a20d-fc8d27591646</testCaseGuid>
+=======
    <testCaseGuid>a1589707-230f-4741-897b-bbd496c05eb1</testCaseGuid>
+>>>>>>> branch 'RegistarionEman' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 </TestCaseEntity>

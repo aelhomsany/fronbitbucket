@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>JoinToSchool</name>
+   <name>nav_to_HS</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>48e1d25e-4eba-47b7-a0d0-9f190857a086</testCaseGuid>
+   <testCaseGuid>b2281804-479a-4e86-a77d-067a0c105ee0</testCaseGuid>
 </TestCaseEntity>

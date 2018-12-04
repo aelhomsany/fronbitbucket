@@ -4,5 +4,9 @@
    <name>login as parent</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>f5c005aa-ea99-4584-be9c-175b933faf9e</testCaseGuid>
+=======
    <testCaseGuid>fd400e32-4a18-4498-94cc-ff1d1746c8bc</testCaseGuid>
+>>>>>>> branch 'RegistarionEman' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 </TestCaseEntity>

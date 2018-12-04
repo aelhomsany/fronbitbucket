@@ -22,11 +22,12 @@ WebUI.navigateToUrl('https://www.schooolz.com/school/create')
 
 not_run: WebUI.delay(5)
 
-WebUI.setText(findTestObject('reg as schoool/school_name'), 'oooooo')
+WebUI.setText(findTestObject('reg as schoool/school_name'),RandomStringUtils.randomAlphabetic(10))
 
-WebUI.setText(findTestObject('reg as schoool/uname_txt'), 'ppppppppp')
+WebUI.setText(findTestObject('reg as schoool/uname_txt'),RandomStringUtils.randomAlphabetic(10) )
 
-WebUI.setText(findTestObject('reg as schoool/email_txt'), 'www@yahoo.com')
+
+WebUI.setText(findTestObject('reg as schoool/email_txt'), RandomStringUtils.randomAlphabetic(10)+'@yahoo.com')
 
 WebUI.setText(findTestObject('reg as schoool/password_txt'), '123456789')
 

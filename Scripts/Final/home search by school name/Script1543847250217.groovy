@@ -13,31 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(5)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('join to school/schools_btn'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('join to school/yahiaschool_btn'))
+WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.click(findTestObject('join to school/Joinschool_btn'))
+WebUI.setText(findTestObject('home search/search_by_name'), 'مدرسة الرضوان الإبتدائية الاهلية بجدة')
 
-WebUI.delay(5)
+not_run: WebUI.selectOptionByIndex(findTestObject('home search/school_category'), '2', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('join to school/name_txt'), 'esraa_mohamed')
+not_run: WebUI.selectOptionByValue(findTestObject('add_event/country'), '1', false)
 
-WebUI.setText(findTestObject('join to school/Email_txt'), 'esraa@yahoo.com')
+not_run: WebUI.selectOptionByValue(findTestObject('add_event/city'), '2', false)
 
-WebUI.setText(findTestObject('join to school/phone_txt'), '1234567890')
+WebUI.click(findTestObject('home search/search_btn'))
 
-WebUI.selectOptionByValue(findTestObject('join to school/DropDown_country'), '2', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByValue(findTestObject('join to school/DropDown_city'), '34', false)
-
-WebUI.verifyOptionNotPresentByValue(findTestObject('join to school/DropDown_city'), '34', false, 60)
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('join to school/Address_txt'), 'kjfhdsj kjb kb jbkjb k jbkjnkj kkj nkjbkj kjbjbjk kjbk ')
+WebUI.delay(10)
 

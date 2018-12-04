@@ -17,29 +17,19 @@ not_run: WebUI.openBrowser('')
 
 not_run: WebUI.maximizeWindow()
 
-not_run: WebUI.navigateToUrl('http://www.schooolz.com')
+WebUI.navigateToUrl('https://www.schooolz.com')
 
-not_run: WebUI.delay(5)
+not_run: WebUI.setText(findTestObject('home search/search_by_name'), 'إبتدائية يحيى بن وثاب لتحفيظ القرآن  الكريم')
 
-WebUI.click(findTestObject('comparison between schools/schools_btn'))
+not_run: WebUI.selectOptionByIndex(findTestObject('home search/school_category'), '2', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
-
-WebUI.check(findTestObject('comparison between schools/addto compare_btn'))
+WebUI.selectOptionByValue(findTestObject('add_event/country'), '1', false)
 
 WebUI.delay(5)
 
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto compare_btn'), 0)
+not_run: WebUI.selectOptionByValue(findTestObject('add_event/city'), '2', false)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('home search/search_btn'))
 
-WebUI.check(findTestObject('comparison between schools/addto comp2'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto comp2'), 0)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('comparison between schools/comparisonlist_btn'))
+WebUI.delay(10)
 

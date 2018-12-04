@@ -14,20 +14,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.schooolz.com')
+not_run: WebUI.navigateToUrl('https://www.schooolz.com')
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
 WebUI.click(findTestObject('join to school/login_btn'))
 
 WebUI.delay(5)
 
-
-WebUI.setText(findTestObject('join to school/UserName_txt'),GlobalVariable.parent_uname)
+WebUI.setText(findTestObject('join to school/UserName_txt'), GlobalVariable.parent_uname)
 
 WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
 

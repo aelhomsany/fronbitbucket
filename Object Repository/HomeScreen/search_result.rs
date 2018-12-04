@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>school_category</name>
+   <name>search_result</name>
    <tag></tag>
-   <elementGuidId>d6da80b3-ae31-48ef-b513-0535e79502c5</elementGuidId>
+   <elementGuidId>70333d1e-dc74-4558-945f-160f11044ea1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'category_id']</value>
+         <value>/html/body/section[3]/div/div[3]/div/div[2]/div/div[2]/div/div[3]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>category_id</value>
+      <value>/html/body/section[3]/div/div[3]/div/div[2]/div/div[2]/div/div[3]/p</value>
    </webElementProperties>
 </WebElementEntity>

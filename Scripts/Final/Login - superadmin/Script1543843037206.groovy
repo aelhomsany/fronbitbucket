@@ -13,33 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser('')
+WebUI.openBrowser('')
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
-not_run: WebUI.navigateToUrl('http://www.schooolz.com')
+WebUI.navigateToUrl('https://www.schooolz.com')
 
-not_run: WebUI.delay(5)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('comparison between schools/schools_btn'))
-
-WebUI.delay(5)
-
-WebUI.check(findTestObject('comparison between schools/addto compare_btn'))
+WebUI.click(findTestObject('join to school/login_btn'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto compare_btn'), 0)
+WebUI.setText(findTestObject('join to school/UserName_txt'), 'superadmin')
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
 
-WebUI.check(findTestObject('comparison between schools/addto comp2'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementChecked(findTestObject('comparison between schools/addto comp2'), 0)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('comparison between schools/comparisonlist_btn'))
+WebUI.click(findTestObject('join to school/register_btn'))
 

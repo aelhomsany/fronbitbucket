@@ -4,5 +4,9 @@
    <name>Login - school</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>47774aeb-cccb-4249-9e01-e8d6e1fc6677</testCaseGuid>
+=======
    <testCaseGuid>ce2da101-1db0-4878-abcf-c2c046cae543</testCaseGuid>
+>>>>>>> branch 'RegistarionEman' of https://aradocsautomation1@bitbucket.org/qualitysquad1/regression.git
 </TestCaseEntity>
