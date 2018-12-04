@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger
+
+
 
 WebUI.openBrowser('')
 
@@ -35,5 +38,7 @@ WebUI.check(findTestObject('advanced search1/governmental_checkbox'))
 
 WebUI.verifyElementChecked(findTestObject('advanced search1/governmental_checkbox'), 0)
 
-WebUI.delay(0)
+WebUI.delay(10)
+WebUI.verifyTextPresent(findTestObject('search_with_speciality/valid_result', 20))
+
 

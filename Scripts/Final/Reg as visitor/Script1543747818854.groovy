@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -29,7 +30,7 @@ WebUI.setText(findTestObject('reg as visitor/username'), RandomStringUtils.rando
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/email'), RandomStringUtils.randomAlphabetic(10)+ visitor_var)
+WebUI.setText(findTestObject('reg as visitor/email'), RandomStringUtils.randomAlphabetic(10) + visitor_var)
 
 WebUI.delay(3)
 
@@ -41,7 +42,7 @@ WebUI.setText(findTestObject('reg as visitor/confirmpassword'), '123456789')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
+not_run: WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
 
 WebUI.delay(3)
 
@@ -65,11 +66,11 @@ WebUI.setText(findTestObject('reg as visitor/birth date'), '10/10/2010')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/ssn'), '12345678912345')
+not_run: WebUI.setText(findTestObject('reg as visitor/ssn'), '12345678912345')
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('reg as visitor/image'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
+WebUI.uploadFile(findTestObject('reg as visitor/image'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 
 WebUI.delay(3)
 
