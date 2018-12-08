@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.schooolz.com')
 
