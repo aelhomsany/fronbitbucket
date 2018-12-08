@@ -4,7 +4,7 @@
    <name>add review</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-03T13:49:07</lastRun>
+   <lastRun>2018-12-07T19:30:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,28 +15,28 @@
       <guid>5540d978-54b0-4dbd-8bdc-3ba9629b8286</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/Reg as visitor</testCaseId>
+      <testCaseId>Test Cases/Final/REG as student</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>65c252cc-7172-4432-a79f-bdb481a35c6d</variableId>
+         <variableId>0be61743-a038-4ad9-98c9-1ecc869337e8</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>255c06a2-1696-4c81-9b83-3eedffcc735f</guid>
+      <guid>60929844-709b-4306-8795-b5067f168988</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/logout</testCaseId>
+      <testCaseId>Test Cases/Final/logout - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9041d293-8032-46bf-989d-9a5a9d4f6236</guid>
+      <guid>60bf584a-2678-456d-b885-b1410349c6c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/Login - visitor</testCaseId>
+      <testCaseId>Test Cases/Final/Login as student - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a058e401-6fee-4fef-a4da-7bfbe1dac25b</guid>
+      <guid>67568d57-b63c-48e7-b06d-b130e774cf40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final/Add Review1</testCaseId>

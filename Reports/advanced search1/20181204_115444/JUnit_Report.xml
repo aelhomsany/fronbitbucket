@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="advanced search1" time="121" tests="5" failures="0" errors="0">
+   <testsuite name="advanced search1" tests="5" failures="0" errors="0" time="121" timestamp="2018-12-04 11:54:48" hostname="M.Kamel - 10.1.210.151" id="Test Suites/advanced search1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\advanced search1\\20181204_115444"/>
+         <property name="logFiles" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\advanced search1\\20181204_115444\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M.Kamel - 10.1.210.151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.1.210.151"/>
+         <property name="sessionId" value="3c9034aadf49ce6b628aeac0a1dd1b1e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Final/search_with_specialty" classname="Test Cases/Final/search_with_specialty" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:54:49 - [TEST_CASE][PASSED] - Test Cases/Final/search_with_specialty: Test Cases/Final/search_with_specialty
+
+2018-12-04 11:54:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-04 11:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-04 11:54:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-04 11:54:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-04 11:54:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-04 11:55:10 - [MESSAGE][PASSED] - Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-04 11:55:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/home_search_btn' is clicked on
+
+2018-12-04 11:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/home_search_btn' is clicked on
+
+2018-12-04 11:55:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:55:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/advanced_search_btn' is clicked on
+
+2018-12-04 11:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/advanced_search_btn' is clicked on
+
+2018-12-04 11:55:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:55:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:55:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/spciality' is clicked on
+
+2018-12-04 11:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/spciality' is clicked on
+
+2018-12-04 11:55:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:55:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:55:22 - [TEST_STEP][PASSED] - check: Object 'Object Repository/advanced search1/governmental_checkbox' is checked
+
+2018-12-04 11:55:27 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/governmental_checkbox' is checked
+
+2018-12-04 11:55:27 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/advanced search1/governmental_checkbox' is checked
+
+2018-12-04 11:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:55:27 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/governmental_checkbox' is checked
+
+2018-12-04 11:55:27 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-04 11:55:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/search with kind of school" classname="Test Cases/Final/search with kind of school" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:55:37 - [TEST_CASE][PASSED] - Test Cases/Final/search with kind of school: Test Cases/Final/search with kind of school
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:55:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:55:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:55:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:55:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:55:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/kind of school' is clicked on
+
+2018-12-04 11:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/kind of school' is clicked on
+
+2018-12-04 11:55:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:55:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:55:45 - [TEST_STEP][PASSED] - check: Object 'Object Repository/advanced search1/kind_of_school_checkbox' is checked
+
+2018-12-04 11:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/kind_of_school_checkbox' is checked
+
+2018-12-04 11:55:50 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/advanced search1/kind_of_school_checkbox' is checked
+
+2018-12-04 11:55:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/kind_of_school_checkbox' is checked
+
+2018-12-04 11:55:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-04 11:56:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-12-04 11:56:00 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:00 - [MESSAGE][NOT_RUN] - NOT_RUN: delay]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/search with country" classname="Test Cases/Final/search with country" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:56:00 - [TEST_CASE][PASSED] - Test Cases/Final/search with country: Test Cases/Final/search with country
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:56:01 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/country' is clicked on
+
+2018-12-04 11:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/country' is clicked on
+
+2018-12-04 11:56:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:12 - [TEST_STEP][PASSED] - check: Object 'Object Repository/advanced search1/country_checkbox' is checked
+
+2018-12-04 11:56:12 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/country_checkbox' is checked
+
+2018-12-04 11:56:12 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/advanced search1/country_checkbox' is checked
+
+2018-12-04 11:56:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:56:12 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/country_checkbox' is checked
+
+2018-12-04 11:56:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-12-04 11:56:13 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/search with city" classname="Test Cases/Final/search with city" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:56:13 - [TEST_CASE][PASSED] - Test Cases/Final/search with city: Test Cases/Final/search with city
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - check: NOT_RUN: check
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: check
+
+2018-12-04 11:56:14 - [TEST_STEP][NOT_RUN] - verifyElementChecked: NOT_RUN: verifyElementChecked
+
+2018-12-04 11:56:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementChecked
+
+2018-12-04 11:56:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/city' is clicked on
+
+2018-12-04 11:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/city' is clicked on
+
+2018-12-04 11:56:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:20 - [TEST_STEP][PASSED] - check: Object 'Object Repository/advanced search1/city_checkbox' is checked
+
+2018-12-04 11:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/city_checkbox' is checked
+
+2018-12-04 11:56:20 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/advanced search1/city_checkbox' is checked
+
+2018-12-04 11:56:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/city_checkbox' is checked
+
+2018-12-04 11:56:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-04 11:56:30 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/search with gender" classname="Test Cases/Final/search with gender" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:56:30 - [TEST_CASE][PASSED] - Test Cases/Final/search with gender: Test Cases/Final/search with gender
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-04 11:56:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-04 11:56:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-04 11:56:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/advanced search1/gender' is clicked on
+
+2018-12-04 11:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/advanced search1/gender' is clicked on
+
+2018-12-04 11:56:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-04 11:56:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-04 11:56:36 - [TEST_STEP][PASSED] - check: Object 'Object Repository/advanced search1/gender1_checkbox' is checked
+
+2018-12-04 11:56:37 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/gender1_checkbox' is checked
+
+2018-12-04 11:56:37 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/advanced search1/gender1_checkbox' is checked
+
+2018-12-04 11:56:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:56:37 - [MESSAGE][PASSED] - Object 'Object Repository/advanced search1/gender1_checkbox' is checked
+
+2018-12-04 11:56:37 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-04 11:56:47 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-04 11:54:48 - [TEST_SUITE][PASSED] - advanced search1: Test Cases/Final/search with gender]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
