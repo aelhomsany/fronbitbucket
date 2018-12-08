@@ -25,9 +25,9 @@ WebUI.click(findTestObject('join to school/login_btn'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('join to school/UserName_txt'), 'visitor')
+WebUI.setText(findTestObject('join to school/UserName_txt'), 'eQQqkxYQyh@gmail.com')
 
-WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456')
+WebUI.setText(findTestObject('join to school/UserPassword_txt'), '123456789')
 
 WebUI.click(findTestObject('join to school/register_btn'))
 
