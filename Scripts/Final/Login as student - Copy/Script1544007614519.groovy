@@ -25,11 +25,11 @@ WebUI.click(findTestObject('HomeScreen/login_btn'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'student')
+WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'DlGcTDDEfC@gmail.com')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456')
+WebUI.setText(findTestObject('HomeScreen/Password_txt'), '123456789')
 
 WebUI.delay(3)
 
