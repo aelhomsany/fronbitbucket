@@ -24,19 +24,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9c13c429-f114-47f9-b55e-1ed2aceb6201</guid>
+      <guid>1303b7e0-8a01-4e9c-bf14-29f2aed22dde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/logout</testCaseId>
+      <testCaseId>Test Cases/Final/logout - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>51d13ded-abce-4107-a07c-2eafa2b7e610</guid>
+      <guid>a4b57605-9f5e-483b-8199-819bbcf11d19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/Login - visitor</testCaseId>
+      <testCaseId>Test Cases/Final/Login - visitor - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d19ee2a3-fc5c-4dfe-adb6-c86c6242fb8d</guid>
+      <guid>2f0e1b10-3b14-43b9-820e-749cb7255aa9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final/add to fav</testCaseId>

@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -27,7 +28,7 @@ WebUI.setText(findTestObject('reg as visitor/username'), RandomStringUtils.rando
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/email'), RandomStringUtils.randomAlphabetic(10)+parenrt_mail)
+WebUI.setText(findTestObject('reg as visitor/email'), RandomStringUtils.randomAlphabetic(10) + parenrt_mail)
 
 WebUI.delay(3)
 
@@ -71,9 +72,11 @@ WebUI.selectOptionByValue(findTestObject('Reg student2/school level'), '1', fals
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('Reg student2/img'), 'C:\\Users\\M.Kamel\\git\\regression22\\Data Files\\1.jpg')
+WebUI.uploadFile(findTestObject('Reg student2/img'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Reg student2/save_btn'))
+
+WebUI.delay(5)
 
