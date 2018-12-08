@@ -4,15 +4,15 @@
    <name>parent can join to school</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-03T15:11:58</lastRun>
+   <lastRun>2018-12-08T11:36:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>a5608dba-cc0e-4c7a-9819-b1df41c04e7f</testSuiteGuid>
+   <testSuiteGuid>95b8a0e2-ee19-4ea3-b4ad-26d6523e9a72</testSuiteGuid>
    <testCaseLink>
-      <guid>4fc7a233-80be-4beb-a094-1628245f3159</guid>
+      <guid>521ff67a-a00d-41cb-9525-d876aad98352</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final/REG as parent</testCaseId>
@@ -30,25 +30,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>32c8ab15-c5cd-4a02-b817-6cf1e112f426</guid>
+      <guid>3f707fb2-b263-45c6-bebe-20ee48b8152f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/nav_to_HS</testCaseId>
+      <testCaseId>Test Cases/Final/logout - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2db14fc9-d669-41db-97e7-de8730909dc2</guid>
+      <guid>774ee73a-4d43-4f8b-812f-5ab526d89500</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/logout</testCaseId>
+      <testCaseId>Test Cases/Final/login as parent - Copy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>75d04056-2697-40a4-84ec-4f89186c3f0b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/login as parent</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>57dca578-5bb2-473d-bc4c-8f94a9e20f61</guid>
+      <guid>4f439e80-5ef8-47e0-9098-c52823d276c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final/JoinToSchoool</testCaseId>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;form-validator&quot;]/div/div[15]/button</value>
+         <value>//*[@id=&quot;form-validator&quot;]/div/div[15]/button[count(. | //*[@class = 'btn btn-default form-control']) = count(//*[@class = 'btn btn-default form-control'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +18,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;form-validator&quot;]/div/div[15]/button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default form-control</value>
    </webElementProperties>
 </WebElementEntity>
