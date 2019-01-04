@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
@@ -29,7 +29,7 @@ WebUI.click(findTestObject('add_event/login_btn'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('add_event/username'), 'yahaschool')
+WebUI.setText(findTestObject('add_event/username'), 'yahaschool@yahoo.com')
 
 WebUI.setText(findTestObject('add_event/password'), '123456')
 

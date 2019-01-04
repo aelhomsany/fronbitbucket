@@ -41,5 +41,45 @@ WebUI.verifyElementChecked(findTestObject('comparison between schools/addto comp
 
 WebUI.delay(5)
 
+WebUI.check(findTestObject('comparison between schools/school3'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementChecked(findTestObject('comparison between schools/school3'), 0)
+
+WebUI.delay(5)
+
+WebUI.check(findTestObject('comparison between schools/school4'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementChecked(findTestObject('comparison between schools/school4'), 0)
+
+WebUI.delay(5)
+
+WebUI.check(findTestObject('comparison between schools/school5'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementChecked(findTestObject('comparison between schools/school5'), 0)
+
+WebUI.delay(5)
+
+not_run: WebUI.check(findTestObject('comparison between schools/school6'))
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.verifyElementChecked(findTestObject('comparison between schools/school6'), 0)
+
+not_run: WebUI.delay(5)
+
+WebUI.check(findTestObject('comparison between schools/school7'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementChecked(findTestObject('comparison between schools/school7'), 0)
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('comparison between schools/comparisonlist_btn'))
 

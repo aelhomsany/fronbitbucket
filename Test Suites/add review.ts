@@ -24,18 +24,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>60929844-709b-4306-8795-b5067f168988</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/logout - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60bf584a-2678-456d-b885-b1410349c6c4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Final/Login as student - Copy</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>67568d57-b63c-48e7-b06d-b130e774cf40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

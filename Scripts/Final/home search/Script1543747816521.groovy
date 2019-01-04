@@ -21,7 +21,11 @@ WebUI.navigateToUrl('https://www.schooolz.com')
 
 WebUI.setText(findTestObject('home search/search_by_name'), 'مدرسة الرضوان الإبتدائية الاهلية بجدة')
 
+WebUI.delay(5)
+
 WebUI.selectOptionByIndex(findTestObject('home search/school_category'), '2', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('add_event/country'), '1', false)
 
@@ -29,5 +33,9 @@ WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('add_event/city'), '2', false)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('home search/search_btn'))
+
+WebUI.delay(5)
 

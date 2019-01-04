@@ -25,7 +25,9 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('REG as parent/par_name'), RandomStringUtils.randomAlphabetic(10))
 
 WebUI.delay(3)
-par_uname=RandomStringUtils.randomAlphabetic(10)
+
+par_uname = RandomStringUtils.randomAlphabetic(10)
+
 WebUI.setText(findTestObject('REG as parent/user_name'), par_uname)
 
 WebUI.delay(3)
@@ -42,7 +44,7 @@ WebUI.setText(findTestObject('REG as parent/conf_password'), '123456789')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('REG as parent/phone'), '1234567890')
+WebUI.setText(findTestObject('REG as parent/phone'), '5264982013')
 
 WebUI.delay(3)
 
@@ -66,7 +68,7 @@ WebUI.setText(findTestObject('REG as parent/date_birth'), '10/10/2010')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('REG as parent/ssn'), '12345678912345')
+WebUI.setText(findTestObject('REG as parent/ssn'), '7825493254')
 
 WebUI.delay(3)
 

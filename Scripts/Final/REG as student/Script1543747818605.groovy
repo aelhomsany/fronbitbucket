@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('reg as visitor/confirmpassword'), '123456789')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
+not_run: WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
 
 WebUI.delay(3)
 
@@ -72,9 +72,9 @@ WebUI.selectOptionByValue(findTestObject('Reg student2/school level'), '1', fals
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('Reg student2/img'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
+not_run: WebUI.uploadFile(findTestObject('Reg student2/img'), 'C:\\Users\\M.Kamel\\git\\regression2\\Data Files\\1.jpg')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 WebUI.click(findTestObject('Reg student2/save_btn'))
 

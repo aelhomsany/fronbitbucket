@@ -22,12 +22,11 @@ WebUI.navigateToUrl('https://www.schooolz.com/school/create')
 
 not_run: WebUI.delay(5)
 
-WebUI.setText(findTestObject('reg as schoool/school_name'),RandomStringUtils.randomAlphabetic(10))
+WebUI.setText(findTestObject('reg as schoool/school_name'), RandomStringUtils.randomAlphabetic(10))
 
-WebUI.setText(findTestObject('reg as schoool/uname_txt'),RandomStringUtils.randomAlphabetic(10) )
+WebUI.setText(findTestObject('reg as schoool/uname_txt'), RandomStringUtils.randomAlphabetic(10))
 
-
-WebUI.setText(findTestObject('reg as schoool/email_txt'), RandomStringUtils.randomAlphabetic(10)+'@yahoo.com')
+WebUI.setText(findTestObject('reg as schoool/email_txt'), RandomStringUtils.randomAlphabetic(10) + '@yahoo.com')
 
 WebUI.setText(findTestObject('reg as schoool/password_txt'), '123456789')
 
@@ -45,61 +44,117 @@ WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/region_dropdown menu'), '8', false)
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/week starting_dropdown menu'), 'السبت', false)
+
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/ending week_dropdown menu'), 'الخميس', false)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00AM')
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00PM')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('reg as schoool/school address_txt'), 'heliopli square')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/fax_txt'), '12345678912')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/school_facebook'), 'https://www.facebook.com/aaaaa.52056223')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/school_twitter'), 'https://www.twitter.com/aaaaa.52056223')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/school_insta'), 'https://www.instgram.com/aaaaa.52056223')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/school_linkedin'), 'https://www.linkedin.com/aaaaa.52056223')
 
-WebUI.uploadFile(findTestObject('add_jobs/img'), GlobalVariable.f_path)
+WebUI.delay(5)
+
+not_run: WebUI.uploadFile(findTestObject('add_jobs/img'), GlobalVariable.f_path)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/school_activities'), '1', false)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/school type_dropdown menu'), '1', false)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/category'), '1', false)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('reg as schoool/gender'), '2', false)
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/fees'), '12345')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/capacity'), '100')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/rooms'), '100')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/labs'), '100')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/playground'), '100')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/teachers'), '100')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/longitude'), '10')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/latitude'), '10')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('reg as schoool/message'), 'hb kbnkjn nnjjnkj')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/description'), 'kldln njlnflnd lnvld nldvnl kndlsknv')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('reg as schoool/vision'), 'sndj nkjSNDJLVN NJnvla jhnvj nvkjn')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('reg as schoool/submit'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('reg as schoool/success_msg'), 0)
+WebUI.delay(5)
+
+not_run: WebUI.verifyElementPresent(findTestObject('reg as schoool/success_msg'), 0)
 

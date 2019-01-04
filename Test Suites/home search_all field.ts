@@ -4,6 +4,7 @@
    <name>home search_all field</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-08T15:32:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
