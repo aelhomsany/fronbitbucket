@@ -4,6 +4,7 @@
    <name>school can add event</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-08T14:24:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

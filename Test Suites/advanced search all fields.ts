@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>advanced search1</name>
+   <name>advanced search all fields</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T15:19:01</lastRun>
+   <lastRun>2018-12-08T15:14:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

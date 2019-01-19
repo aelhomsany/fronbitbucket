@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('reg as visitor/confirmpassword'), '123456789')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
+not_run: WebUI.setText(findTestObject('reg as visitor/phone'), '1234567890')
 
 WebUI.delay(3)
 

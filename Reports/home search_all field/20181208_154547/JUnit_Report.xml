@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="home search_all field" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="home search_all field" tests="1" failures="0" errors="0" time="28" timestamp="2018-12-08 15:45:53" hostname="M.Kamel - 10.1.210.151" id="Test Suites/home search_all field">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\home search_all field\\20181208_154547"/>
+         <property name="logFiles" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\home search_all field\\20181208_154547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M.Kamel - 10.1.210.151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.1.210.151"/>
+         <property name="sessionId" value="e79136446a8e1efee4ee3b46213bfd0d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Final/home search" classname="Test Cases/Final/home search" status="PASSED">
+         <system-out><![CDATA[2018-12-08 15:45:54 - [TEST_CASE][PASSED] - Test Cases/Final/home search: Test Cases/Final/home search
+
+2018-12-08 15:45:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-08 15:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 15:46:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-08 15:46:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-08 15:46:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-08 15:46:14 - [MESSAGE][PASSED] - Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-08 15:46:14 - [TEST_STEP][PASSED] - setText: Text 'مدرسة الرضوان الإبتدائية الاهلية بجدة' is set on object 'Object Repository/home search/search_by_name'
+
+2018-12-08 15:46:14 - [MESSAGE][PASSED] - Text 'مدرسة الرضوان الإبتدائية الاهلية بجدة' is set on object 'Object Repository/home search/search_by_name'
+
+2018-12-08 15:46:14 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/home search/school_category'
+
+2018-12-08 15:46:15 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/home search/school_category'
+
+2018-12-08 15:46:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/add_event/country' 
+
+2018-12-08 15:46:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/add_event/country' 
+
+2018-12-08 15:46:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-08 15:46:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-08 15:46:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/add_event/city' 
+
+2018-12-08 15:46:20 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/add_event/city' 
+
+2018-12-08 15:46:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/home search/search_btn' is clicked on
+
+2018-12-08 15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/home search/search_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 15:45:53 - [TEST_SUITE][PASSED] - home search_all field: Test Cases/Final/home search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
