@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>compare -select schools then unselect one</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec231a3b-c3f3-436e-a228-d92fcd0c3725</testCaseGuid>
+</TestCaseEntity>

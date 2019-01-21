@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search by school name not exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b23bcd63-fb63-4827-ab2a-1b892c0e9f69</testCaseGuid>
+</TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>parent can join to school</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-08T11:36:16</lastRun>
+   <lastRun>2018-12-08T14:27:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add review" time="188" tests="4" failures="0" errors="0">
+   <testsuite name="add review" tests="4" failures="0" errors="0" time="188" timestamp="2018-12-08 14:35:26" hostname="M.Kamel - 10.1.210.151" id="Test Suites/add review">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\add review\\20181208_143522"/>
+         <property name="logFiles" value="C:\\Users\\M.Kamel\\git\\regression2\\Reports\\add review\\20181208_143522\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M.Kamel - 10.1.210.151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.1.210.151"/>
+         <property name="sessionId" value="c1e11b52fb86ef6b2cb43cb3a32bc5e0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Final/Reg as visitor" classname="Test Cases/Final/Reg as visitor" status="PASSED">
+         <system-out><![CDATA[2018-12-08 14:35:26 - [TEST_CASE][PASSED] - Test Cases/Final/Reg as visitor: Test Cases/Final/Reg as visitor
+
+2018-12-08 14:35:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-08 14:35:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 14:35:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-08 14:35:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-08 14:35:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.schooolz.com/visitor/create' successfully
+
+2018-12-08 14:35:38 - [MESSAGE][PASSED] - Navigate to 'http://www.schooolz.com/visitor/create' successfully
+
+2018-12-08 14:35:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:41 - [TEST_STEP][PASSED] - setText: Text 'Dpbzdwhwak' is set on object 'Object Repository/reg as visitor/name'
+
+2018-12-08 14:35:42 - [MESSAGE][PASSED] - Text 'Dpbzdwhwak' is set on object 'Object Repository/reg as visitor/name'
+
+2018-12-08 14:35:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:45 - [TEST_STEP][PASSED] - setText: Text 'jrhgwizRfB' is set on object 'Object Repository/reg as visitor/username'
+
+2018-12-08 14:35:45 - [MESSAGE][PASSED] - Text 'jrhgwizRfB' is set on object 'Object Repository/reg as visitor/username'
+
+2018-12-08 14:35:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:48 - [TEST_STEP][PASSED] - setText: Text 'NCODkthVtw@gmail.com' is set on object 'Object Repository/reg as visitor/email'
+
+2018-12-08 14:35:49 - [MESSAGE][PASSED] - Text 'NCODkthVtw@gmail.com' is set on object 'Object Repository/reg as visitor/email'
+
+2018-12-08 14:35:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:52 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/reg as visitor/password'
+
+2018-12-08 14:35:52 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/reg as visitor/password'
+
+2018-12-08 14:35:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:55 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/reg as visitor/confirmpassword'
+
+2018-12-08 14:35:55 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/reg as visitor/confirmpassword'
+
+2018-12-08 14:35:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:35:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:35:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:35:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:35:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/reg as visitor/country' 
+
+2018-12-08 14:36:02 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/reg as visitor/country' 
+
+2018-12-08 14:36:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:05 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/reg as visitor/city'
+
+2018-12-08 14:36:05 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/reg as visitor/city'
+
+2018-12-08 14:36:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:08 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/reg as visitor/region'
+
+2018-12-08 14:36:08 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/reg as visitor/region'
+
+2018-12-08 14:36:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:11 - [TEST_STEP][PASSED] - setText: Text 'helioplis' is set on object 'Object Repository/reg as visitor/address'
+
+2018-12-08 14:36:12 - [MESSAGE][PASSED] - Text 'helioplis' is set on object 'Object Repository/reg as visitor/address'
+
+2018-12-08 14:36:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:15 - [TEST_STEP][PASSED] - setText: Text '10/10/2010' is set on object 'Object Repository/reg as visitor/birth date'
+
+2018-12-08 14:36:15 - [MESSAGE][PASSED] - Text '10/10/2010' is set on object 'Object Repository/reg as visitor/birth date'
+
+2018-12-08 14:36:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:36:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:36:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:21 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\M.Kamel\git\regression2\Data Files\1.jpg' sent to object: 'Object Repository/reg as visitor/image'
+
+2018-12-08 14:36:21 - [MESSAGE][PASSED] - File 'C:\Users\M.Kamel\git\regression2\Data Files\1.jpg' sent to object: 'Object Repository/reg as visitor/image'
+
+2018-12-08 14:36:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:36:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/reg as visitor/save_btn' is clicked on
+
+2018-12-08 14:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/reg as visitor/save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/logout - Copy" classname="Test Cases/Final/logout - Copy" status="PASSED">
+         <system-out><![CDATA[2018-12-08 14:36:29 - [TEST_CASE][PASSED] - Test Cases/Final/logout - Copy: Test Cases/Final/logout - Copy
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:36:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-08 14:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-08 14:36:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-08 14:36:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-08 14:36:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomeScreen/profile_icon' is clicked on
+
+2018-12-08 14:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomeScreen/profile_icon' is clicked on
+
+2018-12-08 14:36:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-08 14:36:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-08 14:36:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomeScreen/logout_button' is clicked on
+
+2018-12-08 14:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomeScreen/logout_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/Login - visitor - Copy" classname="Test Cases/Final/Login - visitor - Copy" status="PASSED">
+         <system-out><![CDATA[2018-12-08 14:37:03 - [TEST_CASE][PASSED] - Test Cases/Final/Login - visitor - Copy: Test Cases/Final/Login - visitor - Copy
+
+2018-12-08 14:37:03 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-08 14:37:03 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-08 14:37:03 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-08 14:37:03 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-08 14:37:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-08 14:37:29 - [MESSAGE][PASSED] - Navigate to 'https://www.schooolz.com' successfully
+
+2018-12-08 14:37:29 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-12-08 14:37:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-12-08 14:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/join to school/login_btn' is clicked on
+
+2018-12-08 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/join to school/login_btn' is clicked on
+
+2018-12-08 14:37:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-12-08 14:37:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-08 14:37:49 - [TEST_STEP][PASSED] - setText: Text 'eQQqkxYQyh@gmail.com' is set on object 'Object Repository/join to school/UserName_txt'
+
+2018-12-08 14:37:49 - [MESSAGE][PASSED] - Text 'eQQqkxYQyh@gmail.com' is set on object 'Object Repository/join to school/UserName_txt'
+
+2018-12-08 14:37:49 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/join to school/UserPassword_txt'
+
+2018-12-08 14:37:49 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/join to school/UserPassword_txt'
+
+2018-12-08 14:37:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/join to school/register_btn' is clicked on
+
+2018-12-08 14:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/join to school/register_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final/Add Review1" classname="Test Cases/Final/Add Review1" status="PASSED">
+         <system-out><![CDATA[2018-12-08 14:37:56 - [TEST_CASE][PASSED] - Test Cases/Final/Add Review1: Test Cases/Final/Add Review1
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-12-08 14:37:57 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-12-08 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-12-08 14:37:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/schools_btn' is clicked on
+
+2018-12-08 14:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/schools_btn' is clicked on
+
+2018-12-08 14:38:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/numbers_btn' is clicked on
+
+2018-12-08 14:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/numbers_btn' is clicked on
+
+2018-12-08 14:38:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/rehab_school' is clicked on
+
+2018-12-08 14:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/rehab_school' is clicked on
+
+2018-12-08 14:38:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/add_review_btn' is clicked on
+
+2018-12-08 14:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/add_review_btn' is clicked on
+
+2018-12-08 14:38:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:26 - [TEST_STEP][PASSED] - setText: Text 'very nice' is set on object 'Object Repository/AddReview/Description_txt'
+
+2018-12-08 14:38:26 - [MESSAGE][PASSED] - Text 'very nice' is set on object 'Object Repository/AddReview/Description_txt'
+
+2018-12-08 14:38:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/ranke' is clicked on
+
+2018-12-08 14:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/ranke' is clicked on
+
+2018-12-08 14:38:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-08 14:38:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-08 14:38:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddReview/submit_review' is clicked on
+
+2018-12-08 14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AddReview/submit_review' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 14:35:26 - [TEST_SUITE][PASSED] - add review: Test Cases/Final/Add Review1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

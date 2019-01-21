@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>courses without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75f3a0d9-e13f-4eaf-b612-e498f65bf1f7</testCaseGuid>
+</TestCaseEntity>

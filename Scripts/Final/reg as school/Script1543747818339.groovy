@@ -52,13 +52,13 @@ WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('reg as schoool/ending week_dropdown menu'), 'الخميس', false)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '01:00AM')
+WebUI.setText(findTestObject('reg as schoool/starting time_txt'), '10:00AM')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '10:00PM')
+WebUI.setText(findTestObject('reg as schoool/ending time_txt'), '12:00PM')
 
 WebUI.delay(3)
 

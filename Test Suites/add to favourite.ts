@@ -4,7 +4,7 @@
    <name>add to favourite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-08T12:18:36</lastRun>
+   <lastRun>2018-12-08T14:43:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

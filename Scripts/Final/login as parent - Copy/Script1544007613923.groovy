@@ -25,7 +25,7 @@ WebUI.click(findTestObject('HomeScreen/login_btn'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'parent')
+WebUI.setText(findTestObject('HomeScreen/Username_txt'), 'parent@yahoo.com')
 
 WebUI.delay(5)
 
